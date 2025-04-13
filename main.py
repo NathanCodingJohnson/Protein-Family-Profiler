@@ -25,32 +25,25 @@ def home():
     form = UploadFileForm()
     if form.validate_on_submit():
         file = form.file.data
-        if file:
-            print(f"File received: {file.filename}")  # Debugging statement
-            # Check if the file has a valid extension
+        if file and hasattr(file, 'save'):  # Ensure a file is uploaded and has a 'save' method
             allowed_extensions = {'.txt', '.fasta'}
-            _, file_extension = os.path.splitext(file.filename)
+            filename = secure_filename(file.filename)
+            _, file_extension = os.path.splitext(filename)
             if file_extension.lower() in allowed_extensions:
-                if hasattr(file, 'save'):  # Ensure the file is valid and has a 'save' method
-                    filename = secure_filename(file.filename)
-                    file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-                    message = "File uploaded successfully!"
-                    category = "success"
-                else:
-                    print("File does not have a 'save' method.")  # Debugging statement
-                    message = "Invalid file. Could not save."
-                    category = "error"
+                # Save the file without modifying the extension
+                file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+                file.save(file_path)
+                message = "File uploaded successfully!"
+                category = "success"
             else:
-                print("Invalid file extension.")  # Debugging statement
                 message = "Invalid file type. Only .txt and .fasta files are allowed."
                 category = "error"
         else:
-            print("No file received.")  # Debugging statement
             message = "No valid file uploaded!"
             category = "error"
         # Redirect with message and category as query parameters
         query_params = urlencode({'message': message, 'category': category})
-        return redirect(f"{request.url}?{query_params}")
+        return redirect(f"{request.base_url}?{query_params}")
     return render_template('index.html', form=form)
 
 if __name__ == '__main__':
