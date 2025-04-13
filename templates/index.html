@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <title>Protein Family Profiler</title>
+    <script>
+        // Function to display popup messages
+        function showPopupMessage() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const message = urlParams.get('message');
+            const category = urlParams.get('category');
+            if (message) {
+                alert(`${category.toUpperCase()}: ${message}`);
+            }
+        }
+    </script>
+</head>
+<body onload="showPopupMessage()">
+   <h1>Protein Family Profiler</h1>
+   
+   <form method="POST" enctype="multipart/form-data">
+       {{ form.hidden_tag() }}
+       {{ form.file() }}
+       {{ form.submit() }}
+   </form>
+</body>
+</html>
