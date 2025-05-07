@@ -1,0 +1,15 @@
+name: bioenv_x86
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - seaborn
+  - matplotlib
+  - numpy
+  - biopython
+  - pip
+  - hmmer
+  - clustalo
+  - pandas
+  - flask
+prefix: /home/nathan/miniconda3/envs/bioenv_x86

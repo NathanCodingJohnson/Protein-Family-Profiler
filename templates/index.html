@@ -2,27 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <title>Protein Family Profiler</title>
-    <script>
-        // Function to display popup messages
-        function showPopupMessage() {
-            const urlParams = new URLSearchParams(window.location.search);
-            const message = urlParams.get('message');
-            const category = urlParams.get('category');
-            if (message) {
-                alert(`${category.toUpperCase()}: ${message}`);
-            }
-        }
-    </script>
 </head>
-<body onload="showPopupMessage()">
-   <h1>Protein Family Profiler</h1>
-   
-   <form method="POST" enctype="multipart/form-data">
-       {{ form.hidden_tag() }}
-       {{ form.file() }}
-       {{ form.submit() }}
-   </form>
+<body>
+    <header class="header">
+        <a href="/" class="header-title">Protein Family Profiler</a>
+    </header>
+    <div class="container">
+        <p class="intro-text">Welcome to the Protein Family Profiler! Choose an action below:</p>
+        
+        <!-- Display error message if present -->
+        {% if error %}
+        <div class="error-message">
+            <p>{{ error }}</p>
+        </div>
+        {% endif %}
+        
+        <div class="button-group">
+            <h3 class="group-title">Train HMM from FASTA File</h3>
+            <div class="button-container">
+                <a href="/upload_fasta_page" class="button">Upload a .fasta File</a>
+            </div>
+        </div>
+
+        <div class="button-group">
+            <h3 class="group-title">Train HMM from Files Fetched from UniProt</h3>
+            <div class="button-container">
+                <a href="/fetch_by_family_page" class="button">Fetch by Protein Family</a>
+                <a href="/fetch_by_ids_page" class="button">Fetch by Accession IDs</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

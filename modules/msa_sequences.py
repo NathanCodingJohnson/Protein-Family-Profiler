@@ -1,6 +1,6 @@
 """
 msa_sequences.py -
-    Takes a validated fasta file, runs Clustal Omega locally, and saves the aligned output fasta file.
+    This script takes a validated fasta file, runs Clustal Omega locally, and saves the aligned output fasta file.
 
 Requirements:
     - Clustal Omega should be installed locally and accessible when the 'clustalo' command is used in the system.
@@ -13,11 +13,9 @@ import os
 
 def run_clustalo(in_path, out_path):
     """
-    Running Clustal Omega on the validated fasta file to get a multiple sequence alignment (MSA).
-
     Arguments:
-        :param in_path: path to the input validated fasta file.
-        :param out_path: path where the aligned fasta file should be saved.
+        in_path: path to the input validated fasta file.
+        out_path: path where the aligned fasta file should be saved.
     """
     try:
         command = ["clustalo", "-i", in_path, "-o", out_path, "--force", "--outfmt", "fasta"]

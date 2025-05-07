@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Fetch by Accession IDs</title>
+    <script>
+        function disableButtonAndShowMessage() {
+            const fetchButton = document.getElementById('fetch-ids-button');
+            fetchButton.disabled = true;
+            fetchButton.textContent = 'Processing...';
+            const processingMessage = document.getElementById('processing-message');
+            processingMessage.style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <header class="header">
+        <a href="/" class="header-title">Protein Family Profiler</a>
+    </header>
+    <div class="container">
+        <h2 class="form-title">Fetch by Accession IDs</h2>
+        <p class="intro-text">
+            Use this form to fetch sequences using a list of UniProt accession IDs then use the fetched .fasta files as training data for a HMM.
+        </p>
+        <p class="intro-text">
+            Please ensure your text file follows these guidelines:</p>
+        
+        <ul class="info-list">
+            <li>One UniProt Accession ID per line</li>
+            <li>No commas, tabs, or other separators</li>
+            <li>No headers</li>
+            <li>No extra whitespace</li>
+        </ul>
+        <p class="intro-text">Example:</p>
+        <pre class="example-box">
+P24071
+P01833
+Q96D42</pre>
+        <form method="POST" action="/fetch_by_ids" enctype="multipart/form-data" class="centered-form" onsubmit="disableButtonAndShowMessage()">
+            <label for="ids_file" class="form-label">Upload a .txt file with Accession IDs:</label>
+            <input type="file" id="ids_file" name="ids_file" accept=".txt" class="file-input" required>
+            <button type="submit" id="fetch-ids-button" class="button">Fetch Sequences</button>
+        </form>
+        <p id="processing-message" class="processing-message" style="display: none;">Fetching sequences and training HMM. Please wait...</p>
+        <a href="/" class="button">Back to Home</a>
+    </div>
+</body>
+</html>

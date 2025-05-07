@@ -1,0 +1,57 @@
+[
+    {
+        "query": "aligned_sequences",
+        "match": "query_1",
+        "e-value": 4.4e-14,
+        "score": 39.1,
+        "verdict": "High-confidence match",
+        "explanation": "Strong similarity to the HMM profile.",
+        "blast_annotation": {
+            "hit_id": "Q96SB4",
+            "description": "RecName: Full=SRSF protein kinase 1; AltName: Full=SFRS protein kinase 1; AltName: Full=Serine/arginine-rich protein-specific kinase 1; Short=SR-protein-specific kinase 1 [Homo sapiens]",
+            "score": 1363.98
+        }
+    },
+    {
+        "query": "aligned_sequences",
+        "match": "query_2",
+        "e-value": 8e-34,
+        "score": 104.6,
+        "verdict": "High-confidence match",
+        "explanation": "Strong similarity to the HMM profile.",
+        "blast_annotation": {
+            "hit_id": "A5TY84",
+            "description": "RecName: Full=Serine/threonine-protein kinase PknB [Mycobacterium tuberculosis H37Ra] >sp|P0A5S5.1| RecName: Full=Serine/threonine-protein kinase PknB [Mycobacterium tuberculosis variant bovis AF2122/97] >sp|P9WI80.1| RecName: Full=Serine/threonine-protein kinase PknB [Mycobacterium tuberculosis CDC1551] >sp|P9WI81.1| RecName: Full=Serine/threonine-protein kinase PknB [Mycobacterium tuberculosis H37Rv]",
+            "score": 1266.91
+        }
+    },
+    {
+        "query": "aligned_sequences",
+        "match": "query_3",
+        "e-value": 2.5e-35,
+        "score": 109.6,
+        "verdict": "High-confidence match",
+        "explanation": "Strong similarity to the HMM profile.",
+        "blast_annotation": {
+            "hit_id": "O80397",
+            "description": "RecName: Full=Mitogen-activated protein kinase kinase 4; Short=AtMKK4; Short=MAP kinase kinase 4 [Arabidopsis thaliana]",
+            "score": 750.355
+        }
+    },
+    {
+        "query": "aligned_sequences",
+        "match": "query_4",
+        "e-value": 0.32,
+        "score": -3.6,
+        "verdict": "Low-confidence match",
+        "explanation": "No significant match detected."
+    },
+    {
+        "query": "aligned_sequences",
+        "match": "query_5",
+        "e-value": 0.25,
+        "score": -3.2,
+        "verdict": "Low-confidence match",
+        "explanation": "No significant match detected."
+    }
+]

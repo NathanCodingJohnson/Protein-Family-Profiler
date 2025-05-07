@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>HMMER Results</title>
+</head>
+<body>
+    <header class="header">
+        <a href="/" class="header-title">Protein Family Profiler</a>
+    </header>
+    <div class="container">
+        <h2 class="form-title">HMMER Search Results</h2>
+        {% if blast_timeout %}
+            <div class="warning">
+                <p><strong>Warning:</strong> BLAST took too long to respond. Some annotations may be missing. Please try again later.</p>
+            </div>
+        {% endif %}
+        {% if results and results|length > 0 %}
+            <div class="results-container">
+                {% for result in results %}
+                    <div class="result-item">
+                        <h3>Query: {{ result.query }}</h3>
+                        <p><strong>Match Found:</strong> {{ result.match }}</p>
+                        <p><strong>E-value:</strong> {{ result['e-value'] }}</p>
+                        <p><strong>Score:</strong> {{ result.score }}</p>
+                        <p><strong>Verdict:</strong> {{ result.verdict }}</p>
+                        <p><strong>Explanation:</strong> {{ result.explanation }}</p>
+                        {% if result.blast_annotation %}
+                            <div class="blast-annotation">
+                                <h4>BLAST Annotation for High-confidence matches</h4>
+                                {% if result.blast_annotation.note %}
+                                    <p>BLAST server took too long to respond, please try again at another time</p>
+                                    <p>{{ result.blast_annotation.note }}</p>
+                                {% else %}
+                                    <ul>
+                                        <p><strong>Hit ID:</strong> {{ result.blast_annotation.hit_id }}</p>
+                                        <p><strong>Description:</strong> {{ result.blast_annotation.description }}</p>
+                                        <p><strong>Score:</strong> {{ result.blast_annotation.score }}</p>
+                                    </ul>
+                                {% endif %}
+                            </div>
+                        {% endif %}
+                        <hr>
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="visualizations">
+                <h3>Visualizations</h3>
+                <div class="visualization-item">
+                    <h4>HMMER Scores</h4>
+                    <img src="{{ url_for('static', filename=hmmer_plot) }}" alt="HMMER Scores Plot" class="plot-image">
+                </div>
+                {% if scatter_plot %}
+                <div class="visualization-item">
+                    <h4>E-value vs BLAST Score</h4>
+                    <img src="{{ url_for('static', filename=scatter_plot) }}" alt="E-value vs BLAST Score Plot" class="plot-image">
+                </div>
+                {% endif %}
+            </div>
+        {% else %}
+            <p>No results to display.</p>
+        {% endif %}
+        <a href="/" class="button">Back to Home</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Fetch by Protein Family</title>
+    <script>
+        function validateInput() {
+            const familyInput = document.getElementById('family_name');
+            const fetchButton = document.getElementById('fetch-family-button');
+            const processingMessage = document.getElementById('processing-message');
+
+            // Allow letters, numbers, underscores, and spaces
+            const isValid = /^[a-zA-Z0-9_ ]+$/.test(familyInput.value);
+            if (!isValid) {
+                alert("Invalid family name. Please use only letters, numbers, underscores, and spaces.");
+                return false;
+            }
+
+            // Disable the button and show the processing message
+            fetchButton.disabled = true;
+            fetchButton.textContent = 'Processing...';
+            processingMessage.style.display = 'block';
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <header class="header">
+        <a href="/" class="header-title">Protein Family Profiler</a>
+    </header> 
+    <div class="container">
+        <h2 class="form-title">Fetch by Protein Family</h2>
+        <p class="intro-text">
+            Use this form to fetch the first sequences of the specified family from UniProt to be used as training data for a HMM.
+        </p>
+        <form method="POST" action="/fetch_by_family" class="centered-form" onsubmit="return validateInput()">
+            <label for="family_name" class="form-label">Enter a Protein Family Name:</label>
+            <input type="text" id="family_name" name="family_name" class="text-input" placeholder="e.g., protein kinase" required>
+            <label for="size" class="form-label">Number of sequences (default: 25):</label>
+            <input type="number" id="size" name="size" class="text-input" placeholder="Enter a number" min="1">
+            <button type="submit" id="fetch-family-button" class="button">Fetch Sequences</button>
+        </form>
+        <p id="processing-message" class="processing-message" style="display: none;">Fetching sequences and training HMM. Please wait...</p>
+        <a href="/" class="button">Back to Home</a>
+    </div>
+</body>
+</html>

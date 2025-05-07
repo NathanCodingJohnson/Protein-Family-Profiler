@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Upload Query FASTA</title>
+    <script>
+        function disableButtonAndShowMessage() {
+            const uploadButton = document.getElementById('upload-button');
+            uploadButton.disabled = true;
+            uploadButton.textContent = 'Processing...';
+            const processingMessage = document.getElementById('processing-message');
+            processingMessage.style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <header class="header">
+        <a href="/" class="header-title">Protein Family Profiler</a>
+    </header>
+    <div class="container">
+        <h2 class="form-title">Upload Query FASTA File</h2>
+        <p class="intro-text">
+            Use this form to upload a .fasta file to be used as query data for the HMM.
+        </p>
+        <p class="intro-text">
+            The FASTA file that you upload should be in this format:
+        </p>
+        <ul class="info-list">
+            <li>One protein sequence per entry</li>
+            <li>Each entry must begin with a header line starting with '>'</li>
+            <li>Sequence must follow immediately with no empty lines between entries</li>
+            <li>Only amino acid characters allowed (A, C, D, E, F, G, etc.)</li>
+        </ul>
+        <p class="intro-text">Example:</p>
+        <pre class="example-box">
+>query1
+MAVLVVVFTAILFSSALA
+>query2
+MAGRTQVVRSLFPNLR</pre>
+        <form action="/perform_hmm_search" method="POST" enctype="multipart/form-data" class="centered-form" onsubmit="disableButtonAndShowMessage()">
+            <input type="hidden" name="hmm_path" value="{{ hmm_path }}">
+            <label for="query_file" class="form-label">Choose a query .fasta file:</label>
+            <input type="file" id="query_file" name="query_file" accept=".fasta" class="file-input" required>
+            <button type="submit" id="upload-button" class="button">Upload</button>
+        </form>
+        <p id="processing-message" class="processing-message" style="display: none;">Processing query file and running HMM search. Please wait, this may take a long time depending on query batch size and BLAST the High-confidence matches</p>
+        <a href="/" class="button">Back to Home</a>
+        {% if error %}
+            <div class="error-message">{{ error }}</div>
+        {% endif %}
+    </div>
+</body>
+</html>

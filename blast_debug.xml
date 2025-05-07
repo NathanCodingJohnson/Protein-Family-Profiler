@@ -1,0 +1,2860 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_2282289</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>366</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_2282289</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>366</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|O80397.1|</Hit_id>
+  <Hit_def>RecName: Full=Mitogen-activated protein kinase kinase 4; Short=AtMKK4; Short=MAP kinase kinase 4 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>O80397</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>750.355</Hsp_bit-score>
+      <Hsp_score>1936</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>366</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>366</Hsp_identity>
+      <Hsp_positive>366</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>366</Hsp_align-len>
+      <Hsp_qseq>MRPIQSPPGVSVPVKSRPRRRPDLTLPLPQRDVSLAVPLPLPPTSGGSGGSSGSAPSSGGSASSTNTNSSIEAKNYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASPSQNRSPQNLHQLLPPPRPLSSSSSPTT</Hsp_qseq>
+      <Hsp_hseq>MRPIQSPPGVSVPVKSRPRRRPDLTLPLPQRDVSLAVPLPLPPTSGGSGGSSGSAPSSGGSASSTNTNSSIEAKNYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASPSQNRSPQNLHQLLPPPRPLSSSSSPTT</Hsp_hseq>
+      <Hsp_midline>MRPIQSPPGVSVPVKSRPRRRPDLTLPLPQRDVSLAVPLPLPPTSGGSGGSSGSAPSSGGSASSTNTNSSIEAKNYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASPSQNRSPQNLHQLLPPPRPLSSSSSPTT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>sp|Q8RXG3.2|</Hit_id>
+  <Hit_def>RecName: Full=Mitogen-activated protein kinase kinase 5; Short=AtMAP2Kalpha; Short=AtMEK5; Short=AtMKK5; Short=MAP kinase kinase 5 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q8RXG3</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.814</Hsp_bit-score>
+      <Hsp_score>1405</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>362</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>348</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>280</Hsp_identity>
+      <Hsp_positive>310</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>362</Hsp_align-len>
+      <Hsp_qseq>MRPIQSPPGVSVPVKSRPRRRPDLTLPLPQRDVSLAVPLPLPPTSGGSGGSSGSAPSSGGSASSTNTNSSIEAKNYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASPSQNRSPQNLHQLLPPPRPLSSSS</Hsp_qseq>
+      <Hsp_hseq>MKPIQSPSGVASPMKNRLRKRPDLSLPLPHRDVALAV------PLPLPPPSSSSSAPASSSAISTNISA---AKSLSELERVNRIGSGAGGTVYKVIHTPTSRPFALKVIYGNHEDTVRRQICREIEILRSVDHPNVVKCHDMFDHNGEIQVLLEFMDQGSLEGAHIWQEQELADLSRQILSGLAYLHRRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNHGRYDGYAGDVWSLGVSILEFYLGRFPFAVSRQGDWASLMCAICMSQPPEAPATASQEFRHFVSCCLQSDPPKRWSAQQLLQHPFILKAT-----GGPNLRQMLPPPRPLPSAS</Hsp_hseq>
+      <Hsp_midline>M+PIQSP GV+ P+K+R R+RPDL+LPLP RDV+LAV             SS S+  +  SA STN ++   AK+ S+L R NRIGSGAGGTVYKVIH P+SR +ALKVIYGNHE+TVRRQICREIEILR V+HPNVVKCH+MFD NGEIQVLLEFMD+GSLEGAH+W+EQ+LADLSRQILSGLAYLH RHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLN G+YDGYAGD+WSLGVSILEFYLGRFPF VSRQGDWASLMCAICMSQPPEAPATAS EFRHF+SCCLQ +P KR SA QLLQHPFIL+A+        NL Q+LPPPRPL S+S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>sp|Q9LPQ3.1|</Hit_id>
+  <Hit_def>RecName: Full=Mitogen-activated protein kinase kinase 7; Short=AtMKK7; Short=MAP kinase kinase 7; AltName: Full=Protein BUSHY AND DWARF 1 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9LPQ3</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.796</Hsp_bit-score>
+      <Hsp_score>717</Hsp_score>
+      <Hsp_evalue>6.54854e-92</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>322</Hsp_align-len>
+      <Hsp_qseq>RPRRRPDLTLPLPQRDVSLAVPLPLPPTSGGSGGSSGSAPSSGGSASSTNTNSSIEAKNYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQ--NGEIQVLLEFMDKGSLEGAH-VWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFP-FPVSRQGDWASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFI</Hsp_qseq>
+      <Hsp_hseq>RKRRQINLRLPVP----PLSVHLPW---------------FSFASSTAPVINNGISA---SDVEKLHVLGRGSSGIVYKVHHKTTGEIYALKSVNGDMSPAFTRQLAREMEILRRTDSPYVVRCQGIFEKPIVGEVSILMEYMDGGNLESLRGAVTEKQLAGFSRQILKGLSYLHSLKIVHRDIKPANLLLNSRNEVKIADFGVSKIITRSLDYCNSYVGTCAYMSPERFDSAAGENS-DVYAGDIWSFGVMILELFVGHFPLLPQGQRPDWATLMCVVCFGEPPRAPEGCSDEFRSFVDCCLRKESSERWTASQLLGHPFL</Hsp_hseq>
+      <Hsp_midline>R RR+ +L LP+P     L+V LP                 S  S+++   N+ I A   SD+ + + +G G+ G VYKV H+ +  +YALK + G+      RQ+ RE+EILR  + P VV+C  +F++   GE+ +L+E+MD G+LE       E+QLA  SRQIL GL+YLHS  IVHRDIKP+NLL+NS   VKIADFGVS+I+ +++D CNS VGT AYMSPER ++   +   D YAGDIWS GV ILE ++G FP  P  ++ DWA+LMC +C  +PP AP   S EFR F+ CCL++E  +R +A QLL HPF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>sp|Q9FX43.1|</Hit_id>
+  <Hit_def>RecName: Full=Mitogen-activated protein kinase kinase 9; Short=AtMKK9; Short=MAP kinase kinase 9 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9FX43</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.641</Hsp_bit-score>
+      <Hsp_score>714</Hsp_score>
+      <Hsp_evalue>2.11408e-91</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>LAVPLPLPPTSGGSGGSSGSAPSSGGSASSTNTNSSIEAKNYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQ--NGEIQVLLEFMDKGSLEGAHV-WKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFP-FPVSRQGDWASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFI</Hsp_qseq>
+      <Hsp_hseq>LNLRLPLPPISDRRFSTSSSSATTTTVAGCNGISAC-------DLEKLNVLGCGNGGIVYKVRHKTTSEIYALKTVNGDMDPIFTRQLMREMEILRRTDSPYVVKCHGIFEKPVVGEVSILMEYMDGGTLESLRGGVTEQKLAGFAKQILKGLSYLHALKIVHRDIKPANLLLNSKNEVKIADFGVSKILVRSLDSCNSYVGTCAYMSPERFDSESSGGSSDIYAGDIWSFGLMMLELLVGHFPLLPPGQRPDWATLMCAVCFGEPPRAPEGCSEEFRSFVECCLRKDSSKRWTAPQLLAHPFL</Hsp_hseq>
+      <Hsp_midline>L + LPLPP S     +S S+ ++   A     ++        DL + N +G G GG VYKV H+ +S +YALK + G+ +    RQ+ RE+EILR  + P VVKCH +F++   GE+ +L+E+MD G+LE       EQ+LA  ++QIL GL+YLH+  IVHRDIKP+NLL+NS   VKIADFGVS+IL +++D CNS VGT AYMSPER +++ + G  D YAGDIWS G+ +LE  +G FP  P  ++ DWA+LMCA+C  +PP AP   S EFR F+ CCL+++  KR +A QLL HPF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>sp|Q9M8J5.2|</Hit_id>
+  <Hit_def>RecName: Full=Mitogen-activated protein kinase kinase 8; Short=AtMKK8; Short=MAP kinase kinase 8 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9M8J5</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.988</Hsp_bit-score>
+      <Hsp_score>650</Hsp_score>
+      <Hsp_evalue>8.20186e-82</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>279</Hsp_align-len>
+      <Hsp_qseq>ASSTNTNSSIEAKNYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQ-NGEIQVLLEFMDKGSLEGAHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLN----QGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFIL</Hsp_qseq>
+      <Hsp_hseq>VSATVSSCASNTFSVANLDRISVLGSGNGGTVFKVKDKTTSEIYALKKVKENWDSTS----LREIEILRMVNSPYVAKCHDIFQNPSGEVSILMDYMDLGSLESLRGVTEKQLALMSRQVLEGKNYLHEHKIVHRDIKPANLLRSSKEEVKIADFGVSKIVVRSLNKCNSFVGTFAYMSPERLDSEADGVTEEDKSNVYAGDIWSFGLTMLEILVGYYPM----LPDQAAIVCAVCFGEPPKAPEECSDDLKSFMDCCLRKKASERWTASQLLNHPFLL</Hsp_hseq>
+      <Hsp_midline> S+T ++ +    + ++L R + +GSG GGTV+KV  + +S +YALK +  N + T      REIEILR VN P V KCH++F   +GE+ +L+++MD GSLE      E+QLA +SRQ+L G  YLH   IVHRDIKP+NLL +S + VKIADFGVS+I+ ++++ CNS VGT AYMSPER++++ +    + K + YAGDIWS G+++LE  +G +P       D A+++CA+C  +PP+AP   S + + F+ CCL+++  +R +A QLL HPF+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>sp|A9RWC9.1|</Hit_id>
+  <Hit_def>RecName: Full=Mitogen-activated protein kinase kinase 1a; AltName: Full=MAP kinase kinase 1a; Short=PpMKK1a [Physcomitrium patens]</Hit_def>
+  <Hit_accession>A9RWC9</Hit_accession>
+  <Hit_len>352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.942</Hsp_bit-score>
+      <Hsp_score>572</Hsp_score>
+      <Hsp_evalue>1.42748e-69</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>359</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>SASSTNTNSSIEAKNYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGA------HVWKEQQLADLSRQILSGLAYLH-SRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPF--PVSRQG--DWASLMCAICMSQPPEAPATA-SPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASPSQNRSPQNLHQLLPPPRPLS</Hsp_qseq>
+      <Hsp_hseq>SQTQTSTPAANGNISLSDLETVKVLGKGSGGVVQLVRHKWTNETYALKVIHMNIEETTRKQIVQELKINHASQCPYVVICYHAFYNNGLISIVLEYMDGGSLADIMKELEPKCIKEPNLGVVCKQVLLGLMYLHQTRHIIHRDIKPSNLLVNHKGEVKISDFGVSAVLANSMAVRDTFVGTCTYMSPERV-----LGGTYGFDSDIWSLGLTLLECALGKYPYQPPGSEEGWMNFYELLQTIVDQPPPVAPADQFSPEFCSFISACLQKDPKCRPTAAELLNHPFVNK----YDEEEYGLAKLLPPLVPLA</Hsp_hseq>
+      <Hsp_midline>S + T+T ++    + SDL     +G G+GG V  V H+ ++  YALKVI+ N EET R+QI +E++I      P VV C+  F  NG I ++LE+MD GSL            KE  L  + +Q+L GL YLH +RHI+HRDIKPSNLL+N    VKI+DFGVS +LA +M   ++ VGT  YMSPER+      G   G+  DIWSLG+++LE  LG++P+  P S +G  ++  L+  I    PP APA   SPEF  FIS CLQ++P  R +A +LL HPF+ +     +     L +LLPP  PL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>sp|Q5QN75.1|</Hit_id>
+  <Hit_def>RecName: Full=Mitogen-activated protein kinase kinase 1; Short=MAP kinase kinase 1; Short=MAPKK1; AltName: Full=OsMEK1 [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q5QN75</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.557</Hsp_bit-score>
+      <Hsp_score>571</Hsp_score>
+      <Hsp_evalue>1.9081e-69</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>360</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>NTNSSIEAKNYS--DLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWK------EQQLADLSRQILSGLAYLH-SRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWAS---LMCAICMSQPPEAPATA-SPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASPSQNRSPQNLHQLLPPPRPLSS</Hsp_qseq>
+      <Hsp_hseq>STNLKVEDVQLSMDDLEMIQVIGKGSGGIVQLVRHKWVGTLYALKGIQMNIQEAVRKQIVQELKINQATQNAHIVLCHQSFYHNGVIYLVLEYMDRGSL--ADIIKQVKTILEPYLAVLCKQVLEGLLYLHHERHVIHRDIKPSNLLVNRKGEVKITDFGVSAVLASSMGQRDTFVGTYNYMAPERISG----SSYD-YKSDIWSLGLVILECAIGRFPYIPSEGEGWLSFYELLEAIVDQPPPSAPADQFSPEFCAFISSCIQKDPAERMSASELLNHPFI-KKFEDKDLDLRILVESLEPPMNISE</Hsp_hseq>
+      <Hsp_midline>+TN  +E    S  DL     IG G+GG V  V H+    LYALK I  N +E VR+QI +E++I +   + ++V CH+ F  NG I ++LE+MD+GSL  A + K      E  LA L +Q+L GL YLH  RH++HRDIKPSNLL+N    VKI DFGVS +LA +M   ++ VGT  YM+PERI+       YD Y  DIWSLG+ ILE  +GRFP+  S    W S   L+ AI    PP APA   SPEF  FIS C+Q++P +R SA +LL HPFI +    ++   + L + L PP  +S </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>sp|A9SR33.2|</Hit_id>
+  <Hit_def>RecName: Full=Mitogen-activated protein kinase kinase 1b; AltName: Full=MAP kinase kinase 1b; AltName: Full=PpMKK1b [Physcomitrium patens]</Hit_def>
+  <Hit_accession>A9SR33</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.624</Hsp_bit-score>
+      <Hsp_score>553</Hsp_score>
+      <Hsp_evalue>6.35792e-67</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>279</Hsp_align-len>
+      <Hsp_qseq>SDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNH--PNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWKEQQ------LADLSRQILSGLAYLHS-RHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPF-PVSRQGDWAS--LMCAICMSQPPEA--PATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASPSQ</Hsp_qseq>
+      <Hsp_hseq>ADLEAVRVLGKGAGGSVQLVRHKWTNDIYALKGIQMNINETVRKQIVQELKINQLTLHQCPYIVKCYHSFYHNGIISIVLEYMDRGSL--ADIIKQTKQIPEPYLAVISNQVLKGLNYLHQVRHIIHRDIKPSNLLINQKGEVKISDFGVSAVLISSMAQRDTFVGTYTYMSPERLG-----GQSYAYDSDIWSLGLTILECALGYFPYRPPGQEEGWNNFFMLMELVINQPPVAAPPDKFSPEFCSFIAACIQKRPGDRLSTADLLKHPFLQKYSEEE</Hsp_hseq>
+      <Hsp_midline>+DL     +G GAGG+V  V H+ ++ +YALK I  N  ETVR+QI +E++I +   H  P +VKC+  F  NG I ++LE+MD+GSL  A + K+ +      LA +S Q+L GL YLH  RHI+HRDIKPSNLLIN    VKI+DFGVS +L  +M   ++ VGT  YMSPER+      G+   Y  DIWSLG++ILE  LG FP+ P  ++  W +  ++  + ++QPP A  P   SPEF  FI+ C+Q+ PG R S   LL+HPF+ + S  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>sp|Q9LQM8.1|</Hit_id>
+  <Hit_def>RecName: Full=Mitogen-activated protein kinase kinase 10; Short=AtMKK10; Short=MAP kinase kinase 10 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9LQM8</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.46</Hsp_bit-score>
+      <Hsp_score>537</Hsp_score>
+      <Hsp_evalue>5.63599e-65</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>GSAPSSGGSASSTNTNSSIEAKNYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGA----HVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTD-LNQGKYDGYAGDIWSLGVSILEFYLGRFPF-PVSRQGDWASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFI</Hsp_qseq>
+      <Hsp_hseq>GTAFSVASSSSSSPETSPIQTLN--DLEKLSVLGQGSGGTVYKTRHRRTKTLYALKVLRPNLNTTVTV----EADILKRIESSFIIKCYAVFVSLYDLCFVMELMEKGSLHDALLAQQVFSEPMVSSLANRILQGLRYLQKMGIVHGDIKPSNLLINKKGEVKIADFGASRIVAGGDYGSN---GTCAYMSPERVDLEKWGFGGEVGFAGDVWSLGVVVLECYIGRYPLTKVGDKPDWATLFCAICCNEKVDIPVSCSLEFRDFVGRCLEKDWRKRDTVEELLRHSFV</Hsp_hseq>
+      <Hsp_midline>G+A S   S+SS+   S I+  N  DL + + +G G+GGTVYK  HR +  LYALKV+  N   TV      E +IL+ +    ++KC+ +F    ++  ++E M+KGSL  A     V+ E  ++ L+ +IL GL YL    IVH DIKPSNLLIN    VKIADFG SRI+A      N   GT AYMSPER++ +    G   G+AGD+WSLGV +LE Y+GR+P   V  + DWA+L CAIC ++  + P + S EFR F+  CL+++  KR +  +LL+H F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>sp|Q9FJV0.1|</Hit_id>
+  <Hit_def>RecName: Full=Mitogen-activated protein kinase kinase 6; Short=AtMKK6; Short=MAP kinase kinase 6; AltName: Full=Protein Arabidopsis NQK1 homolog [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9FJV0</Hit_accession>
+  <Hit_len>356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.69</Hsp_bit-score>
+      <Hsp_score>535</Hsp_score>
+      <Hsp_evalue>6.0895e-64</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>DLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNH-PNVVKCHEMFDQNGEIQVLLEFMDKGSLEGA----HVWKEQQLADLSRQILSGLAYLHS-RHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGD----WASLMCAICMSQPPEAPATA-SPEFRHFISCCLQREPGKRRSAMQLLQHPFI</Hsp_qseq>
+      <Hsp_hseq>DLETVKVIGKGSGGVVQLVRHKWVGKFFAMKVIQMNIQEEIRKQIVQELKINQASSQCPHVVVCYHSFYHNGAFSLVLEYMDRGSLADVIRQVKTILEPYLAVVCKQVLLGLVYLHNERHVIHRDIKPSNLLVNHKGEVKISDFGVSASLASSMGQRDTFVGTYNYMSPERIS-----GSTYDYSSDIWSLGMSVLECAIGRFPYLESEDQQNPPSFYELLAAIVENPPPTAPSDQFSPEFCSFVSACIQKDPPARASSLDLLSHPFI</Hsp_hseq>
+      <Hsp_midline>DL     IG G+GG V  V H+   + +A+KVI  N +E +R+QI +E++I +  +  P+VV C+  F  NG   ++LE+MD+GSL           E  LA + +Q+L GL YLH+ RH++HRDIKPSNLL+N    VKI+DFGVS  LA +M   ++ VGT  YMSPERI+     G    Y+ DIWSLG+S+LE  +GRFP+  S        +  L+ AI  + PP AP+   SPEF  F+S C+Q++P  R S++ LL HPFI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>sp|Q9S7U9.2|</Hit_id>
+  <Hit_def>RecName: Full=Mitogen-activated protein kinase kinase 2; Short=AtMAP2Kbeta; Short=AtMKK2; Short=MAP kinase kinase 2 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9S7U9</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.92</Hsp_bit-score>
+      <Hsp_score>533</Hsp_score>
+      <Hsp_evalue>1.33054e-63</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>SDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSL----EGAHVWKEQQLADLSRQILSGLAYLH-SRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPF-PVSRQGDWAS---LMCAICMSQPPEAPA-TASPEFRHFISCCLQREPGKRRSAMQLLQHPFI</Hsp_qseq>
+      <Hsp_hseq>SDLDMVKVIGKGSSGVVQLVQHKWTGQFFALKVIQLNIDEAIRKAIAQELKINQSSQCPNLVTSYQSFYDNGAISLILEYMDGGSLADFLKSVKAIPDSYLSAIFRQVLQGLIYLHHDRHIIHRDLKPSNLLINHRGEVKITDFGVSTVMTNTAGLANTFVGTYNYMSPERI-----VGNKYGNKSDIWSLGLVVLECATGKFPYAPPNQEETWTSVFELMEAIVDQPPPALPSGNFSPELSSFISTCLQKDPNSRSSAKELMEHPFL</Hsp_hseq>
+      <Hsp_midline>SDL     IG G+ G V  V H+ + + +ALKVI  N +E +R+ I +E++I +    PN+V  ++ F  NG I ++LE+MD GSL    +      +  L+ + RQ+L GL YLH  RHI+HRD+KPSNLLIN    VKI DFGVS ++  T    N+ VGT  YMSPERI      G   G   DIWSLG+ +LE   G+FP+ P +++  W S   LM AI    PP  P+   SPE   FIS CLQ++P  R SA +L++HPF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>sp|A9S5R3.1|</Hit_id>
+  <Hit_def>RecName: Full=Mitogen-activated protein kinase kinase 1c; AltName: Full=MAP kinase kinase 1c; AltName: Full=PpMKK1c [Physcomitrium patens]</Hit_def>
+  <Hit_accession>A9S5R3</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>3.01071e-63</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>SDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNH---PNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWKEQQ------LADLSRQILSGLAYLHS-RHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPF-PVSRQGDWAS--LMCAICMSQPPEA--PATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASPSQ</Hsp_qseq>
+      <Hsp_hseq>ADLELVRFLGKGAGGTVQLVRHKWTNVNYALKAIQMNINETVRKQIVQELKI-NQVTHQQCPYIVECFHSFYHNGVISMILEYMDRGSL--SDIIKQQKQIPEPYLAVIASQVLKGLEYLHQVRHIIHRDIKPSNLLINHKGEVKISDFGVSAVLVHSLAQRDTFVGTCTYMSPERL-----QGRSYAYDSDLWSLGLTLLECALGTFPYKPAGMEEGWQNFFILMECIVNQPPAAASPDKFSPEFCSFIESCIRKCPSERPSTTDLLKHPFLQKYNEEE</Hsp_hseq>
+      <Hsp_midline>+DL     +G GAGGTV  V H+ ++  YALK I  N  ETVR+QI +E++I   V H   P +V+C   F  NG I ++LE+MD+GSL  + + K+Q+      LA ++ Q+L GL YLH  RHI+HRDIKPSNLLIN    VKI+DFGVS +L  ++   ++ VGT  YMSPER+     QG+   Y  D+WSLG+++LE  LG FP+ P   +  W +  ++    ++QPP A  P   SPEF  FI  C+++ P +R S   LL+HPF+ + +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>sp|Q94A06.2|</Hit_id>
+  <Hit_def>RecName: Full=Mitogen-activated protein kinase kinase 1; Short=AtMKK1; Short=MAP kinase kinase 1; AltName: Full=AtMEK1; AltName: Full=NMAPKK [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q94A06</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>1.19066e-60</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>SDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWK------EQQLADLSRQILSGLAYLH-SRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPF-PVSRQGDWAS---LMCAICMSQPPEAPATA-SPEFRHFISCCLQREPGKRRSAMQLLQHPFI</Hsp_qseq>
+      <Hsp_hseq>ADLEVIKVIGKGSSGNVQLVKHKLTQQFFALKVIQLNTEESTCRAISQELRINLSSQCPYLVSCYQSFYHNGLVSIILEFMDGGSL--ADLLKKVGKVPENMLSAICKRVLRGLCYIHHERRIIHRDLKPSNLLINHRGEVKITDFGVSKILTSTSSLANSFVGTYPYMSPERISGSLYSNK-----SDIWSLGLVLLECATGKFPYTPPEHKKGWSSVYELVDAIVENPPPCAPSNLFSPEFCSFISQCVQKDPRDRKSAKELLEHKFV</Hsp_hseq>
+      <Hsp_midline>+DL     IG G+ G V  V H+ + + +ALKVI  N EE+  R I +E+ I      P +V C++ F  NG + ++LEFMD GSL  A + K      E  L+ + +++L GL Y+H  R I+HRD+KPSNLLIN    VKI DFGVS+IL  T    NS VGT  YMSPERI+  L   K      DIWSLG+ +LE   G+FP+ P   +  W+S   L+ AI  + PP AP+   SPEF  FIS C+Q++P  R+SA +LL+H F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>sp|A0A1S4CGX4.1|</Hit_id>
+  <Hit_def>RecName: Full=Mitogen-activated protein kinase kinase SIPKK; AltName: Full=Salicylic acid-induced protein kinase kinase [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>A0A1S4CGX4</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.749</Hsp_bit-score>
+      <Hsp_score>504</Hsp_score>
+      <Hsp_evalue>1.9914e-59</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>SDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSL----EGAHVWKEQQLADLSRQILSGLAYLH-SRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPF--PVSRQGDWAS---LMCAICMSQPPEA-PATASPEFRHFISCCLQREPGKRRSAMQLLQHPFI</Hsp_qseq>
+      <Hsp_hseq>ADFEAVKVIGKGNGGIVRLVQHKWTGQFFALKVIQMNIEESMRKHIAQELRINQSSQCPYVVISYQSFFDNGAISIILEYMDGGSLADFLKKVKTIPERYLAAICKQVLKGLWYLHHEKHIIHRDLKPSNLLINHIGDVKITDFGVSAVLASTSGLANTFVGTYNYMSPERI-----LGGAYGYRSDIWSLGLVLLECATGVFPYSPPQADEG-WVNVYELMETIVDQPAPSAPPDQFSPQFCSFISACVQKDQKDRLSANELMRHPFI</Hsp_hseq>
+      <Hsp_midline>+D      IG G GG V  V H+ + + +ALKVI  N EE++R+ I +E+ I +    P VV  ++ F  NG I ++LE+MD GSL    +      E+ LA + +Q+L GL YLH  +HI+HRD+KPSNLLIN   +VKI DFGVS +LA T    N+ VGT  YMSPERI      G   GY  DIWSLG+ +LE   G FP+  P + +G W +   LM  I     P A P   SP+F  FIS C+Q++   R SA +L++HPFI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>sp|Q13163.2|</Hit_id>
+  <Hit_def>RecName: Full=Dual specificity mitogen-activated protein kinase kinase 5; Short=MAP kinase kinase 5; Short=MAPKK 5; AltName: Full=MAPK/ERK kinase 5; Short=MEK 5 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q13163</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.415</Hsp_bit-score>
+      <Hsp_score>459</Hsp_score>
+      <Hsp_evalue>8.30287e-52</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>128</Hsp_hit-from>
+      <Hsp_hit-to>421</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>PTSGGSGGSSGSAPSSGGSASSTNTNSSIE--AKNYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLM------CAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILR</Hsp_qseq>
+      <Hsp_hseq>PSQHSSPAVSDSLPSNSLKKSSAELKKILANGQMNEQDIRYRDTLGHGNGGTVYKAYHVPSGKILAVKVILLDITLELQKQIMSELEILYKCDSSYIIGFYGAFFVENRISICTEFMDGGSLDVYRKMPEHVLGRIAVAVVKGLTYLWSLKILHRDVKPSNMLVNTRGQVKLCDFGVSTQLVNSI--AKTYVGTNAYMAPERIS-----GEQYGIHSDVWSLGISFMELALGRFPYP-QIQKNQGSLMPLQLLQCIVDEDSPVLPVGEFSEPFVHFITQCMRKQPKERPAPEELMGHPFIVQ</Hsp_hseq>
+      <Hsp_midline>P+   S   S S PS+    SS      +     N  D+   + +G G GGTVYK  H PS ++ A+KVI  +    +++QI  E+EIL   +   ++  +  F     I +  EFMD GSL+      E  L  ++  ++ GL YL S  I+HRD+KPSN+L+N+   VK+ DFGVS  L  ++    + VGT AYM+PERI+     G+  G   D+WSLG+S +E  LGRFP+P   Q +  SLM      C +    P       S  F HFI+ C++++P +R +  +L+ HPFI++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>sp|Q62862.1|</Hit_id>
+  <Hit_def>RecName: Full=Dual specificity mitogen-activated protein kinase kinase 5; Short=MAP kinase kinase 5; Short=MAPKK 5; AltName: Full=MAPK/ERK kinase 5; Short=MEK 5 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q62862</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.874</Hsp_bit-score>
+      <Hsp_score>455</Hsp_score>
+      <Hsp_evalue>3.18416e-51</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>421</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>SGSAPSSGGSASSTNTNSSIE--AKNYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLM------CAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILR</Hsp_qseq>
+      <Hsp_hseq>SDSLPSNSLKKSSAELRKILANGQMNEQDIRYRDTLGHGNGGTVYKAYHVPSGKILAVKVILLDITLELQKQIMSELEILYKCDSSYIIGFYGAFFVENRISICTEFMDGGSLDVYRKIPEHVLGRIAVAVVKGLTYLWSLKILHRDVKPSNMLVNTSGQVKLCDFGVSTQLVNSI--AKTYVGTNAYMAPERIS-----GEQYGIHSDVWSLGISFMELALGRFPYP-QIQKNQGSLMPLQLLQCIVDEDSPVLPLGEFSEPFVHFITQCMRKQPKERPAPEELMGHPFIVQ</Hsp_hseq>
+      <Hsp_midline>S S PS+    SS      +     N  D+   + +G G GGTVYK  H PS ++ A+KVI  +    +++QI  E+EIL   +   ++  +  F     I +  EFMD GSL+      E  L  ++  ++ GL YL S  I+HRD+KPSN+L+N++  VK+ DFGVS  L  ++    + VGT AYM+PERI+     G+  G   D+WSLG+S +E  LGRFP+P   Q +  SLM      C +    P       S  F HFI+ C++++P +R +  +L+ HPFI++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>sp|Q9WVS7.1|</Hit_id>
+  <Hit_def>RecName: Full=Dual specificity mitogen-activated protein kinase kinase 5; Short=MAP kinase kinase 5; Short=MAPKK 5; AltName: Full=MAPK/ERK kinase 5; Short=MEK 5 [Mus musculus]</Hit_def>
+  <Hit_accession>Q9WVS7</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.333</Hsp_bit-score>
+      <Hsp_score>451</Hsp_score>
+      <Hsp_evalue>1.24567e-50</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>421</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>SGSAPSSGGSASSTNTNSSIE--AKNYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLM------CAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILR</Hsp_qseq>
+      <Hsp_hseq>SDSLPSNSLKKSSAELRKILANGQMNEQDIRYRDTLGHGNGGTVYKAHHVPSGKILAVKVILLDITLELQKQIMSELEILYKCDSSYIIGFYGAFFVENRISICTEFMDGGSLDVYRKIPEHVLGRIAVAVVKGLTYLWSLKILHRDVKPSNMLVNTGGQVKLCDFGVSTQLVNSI--AKTYVGTNAYMAPERIS-----GEQYGIHSDVWSLGISFMELALGRFPYP-QIQKNQGSLMPLQLLQCIVDEDSPVLPLGEFSEPFVHFITQCMRKQPKERPAPEELMGHPFIVQ</Hsp_hseq>
+      <Hsp_midline>S S PS+    SS      +     N  D+   + +G G GGTVYK  H PS ++ A+KVI  +    +++QI  E+EIL   +   ++  +  F     I +  EFMD GSL+      E  L  ++  ++ GL YL S  I+HRD+KPSN+L+N+   VK+ DFGVS  L  ++    + VGT AYM+PERI+     G+  G   D+WSLG+S +E  LGRFP+P   Q +  SLM      C +    P       S  F HFI+ C++++P +R +  +L+ HPFI++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>sp|P29678.2|</Hit_id>
+  <Hit_def>RecName: Full=Dual specificity mitogen-activated protein kinase kinase 1; Short=MAP kinase kinase 1; Short=MAPKK 1; AltName: Full=ERK activator kinase 1; AltName: Full=MAPK/ERK kinase 1; Short=MEK 1 [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>P29678</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.022</Hsp_bit-score>
+      <Hsp_score>445</Hsp_score>
+      <Hsp_evalue>2.87902e-50</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>56</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>SDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWK------EQQLADLSRQILSGLAYLHSRH-IVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFP------------VSRQGDWA---------------------------SLMCAICMSQPPEAP-ATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASPSQ</Hsp_qseq>
+      <Hsp_hseq>DDFEKISELGAGNGGVVFKVSHKPSGLVMARKLIHLEIKPAIRNQIIRELQVLHECNSPYIVGFYGAFYSDGEISICMEHMDGGSLD--QVLKKAGRIPEQILGKVSIAVIKGLTYLREKHKIMHRDVKPSNILVNSRGEIKLCDFGVSGQLIDSM--ANSFVGTRSYMSPERL-----QGTHYSVQSDIWSMGLSLVEMAVGRYPIPPPDAKELELMFGCQVEGDAAETPPRPRTPGRPLSSYGMDSRPPMAIFELLDYIVNEPPPKLPSAVFSLEFQDFVNKCLIKNPAERADLKQLMVHAFIKRSDAEE</Hsp_hseq>
+      <Hsp_midline> D  + + +G+G GG V+KV H+PS  + A K+I+   +  +R QI RE+++L + N P +V  +  F  +GEI + +E MD GSL+   V K      EQ L  +S  ++ GL YL  +H I+HRD+KPSN+L+NS   +K+ DFGVS  L  +M   NS VGT +YMSPER+     QG +     DIWS+G+S++E  +GR+P P               +GD A                            L+  I    PP+ P A  S EF+ F++ CL + P +R    QL+ H FI R+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>sp|Q02750.2|</Hit_id>
+  <Hit_def>RecName: Full=Dual specificity mitogen-activated protein kinase kinase 1; Short=MAP kinase kinase 1; Short=MAPKK 1; Short=MKK1; AltName: Full=ERK activator kinase 1; AltName: Full=MAPK/ERK kinase 1; Short=MEK 1 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q02750</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.481</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>9.18581e-50</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>56</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>SDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWK------EQQLADLSRQILSGLAYLHSRH-IVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFP------------VSRQGDWA---------------------------SLMCAICMSQPPEAPA-TASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASPSQ</Hsp_qseq>
+      <Hsp_hseq>DDFEKISELGAGNGGVVFKVSHKPSGLVMARKLIHLEIKPAIRNQIIRELQVLHECNSPYIVGFYGAFYSDGEISICMEHMDGGSLD--QVLKKAGRIPEQILGKVSIAVIKGLTYLREKHKIMHRDVKPSNILVNSRGEIKLCDFGVSGQLIDSM--ANSFVGTRSYMSPERL-----QGTHYSVQSDIWSMGLSLVEMAVGRYPIPPPDAKELELMFGCQVEGDAAETPPRPRTPGRPLSSYGMDSRPPMAIFELLDYIVNEPPPKLPSGVFSLEFQDFVNKCLIKNPAERADLKQLMVHAFIKRSDAEE</Hsp_hseq>
+      <Hsp_midline> D  + + +G+G GG V+KV H+PS  + A K+I+   +  +R QI RE+++L + N P +V  +  F  +GEI + +E MD GSL+   V K      EQ L  +S  ++ GL YL  +H I+HRD+KPSN+L+NS   +K+ DFGVS  L  +M   NS VGT +YMSPER+     QG +     DIWS+G+S++E  +GR+P P               +GD A                            L+  I    PP+ P+   S EF+ F++ CL + P +R    QL+ H FI R+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>sp|Q01986.2|</Hit_id>
+  <Hit_def>RecName: Full=Dual specificity mitogen-activated protein kinase kinase 1; Short=MAP kinase kinase 1; Short=MAPKK 1; AltName: Full=ERK activator kinase 1; AltName: Full=MAPK/ERK kinase 1; Short=MEK 1 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q01986</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.481</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>1.04248e-49</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>56</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>DLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWK------EQQLADLSRQILSGLAYLHSRH-IVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFP------------VSRQGDWA---------------------------SLMCAICMSQPPEAPA-TASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASPSQ</Hsp_qseq>
+      <Hsp_hseq>DFEKISELGAGNGGVVFKVSHKPSGLVMARKLIHLEIKPAIRNQIIRELQVLHECNSPYIVGFYGAFYSDGEISICMEHMDGGSLD--QVLKKAGRIPEQILGKVSIAVIKGLTYLREKHKIMHRDVKPSNILVNSRGEIKLCDFGVSGQLIDSM--ANSFVGTRSYMSPERL-----QGTHYSVQSDIWSMGLSLVEMAVGRYPIPPPDAKELELLFGCQVEGDAAETPPRPRTPGRPLSSYGMDSRPPMAIFELLDYIVNEPPPKLPSGVFSLEFQDFVNKCLIKNPAERADLKQLMVHAFIKRSDAEE</Hsp_hseq>
+      <Hsp_midline>D  + + +G+G GG V+KV H+PS  + A K+I+   +  +R QI RE+++L + N P +V  +  F  +GEI + +E MD GSL+   V K      EQ L  +S  ++ GL YL  +H I+HRD+KPSN+L+NS   +K+ DFGVS  L  +M   NS VGT +YMSPER+     QG +     DIWS+G+S++E  +GR+P P               +GD A                            L+  I    PP+ P+   S EF+ F++ CL + P +R    QL+ H FI R+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>sp|P31938.2|</Hit_id>
+  <Hit_def>RecName: Full=Dual specificity mitogen-activated protein kinase kinase 1; Short=MAP kinase kinase 1; Short=MAPKK 1; AltName: Full=ERK activator kinase 1; AltName: Full=MAPK/ERK kinase 1; Short=MEK 1 [Mus musculus]</Hit_def>
+  <Hit_accession>P31938</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.096</Hsp_bit-score>
+      <Hsp_score>440</Hsp_score>
+      <Hsp_evalue>1.35684e-49</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>56</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>SDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWK------EQQLADLSRQILSGLAYLHSRH-IVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFP------------VSRQGDWA---------------------------SLMCAICMSQPPEAPA-TASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASPSQ</Hsp_qseq>
+      <Hsp_hseq>DDFEKISELGAGNGGVVFKVSHKPSGLVMARKLIHLEIKPAIRNQIIRELQVLHECNSPYIVGFYGAFYSDGEISICMEHMDGGSLD--QVLKKAGRIPEQILGKVSIAVIKGLTYLREKHKIMHRDVKPSNILVNSRGEIKLCDFGVSGQLIDSM--ANSFVGTRSYMSPERL-----QGTHYSVQSDIWSMGLSLVEMAVGRYPIPPPDAKELELLFGCHVEGDAAETPPRPRTPGRPLSSYGMDSRPPMAIFELLDYIVNEPPPKLPSGVFSLEFQDFVNKCLIKNPAERADLKQLMVHAFIKRSDAEE</Hsp_hseq>
+      <Hsp_midline> D  + + +G+G GG V+KV H+PS  + A K+I+   +  +R QI RE+++L + N P +V  +  F  +GEI + +E MD GSL+   V K      EQ L  +S  ++ GL YL  +H I+HRD+KPSN+L+NS   +K+ DFGVS  L  +M   NS VGT +YMSPER+     QG +     DIWS+G+S++E  +GR+P P               +GD A                            L+  I    PP+ P+   S EF+ F++ CL + P +R    QL+ H FI R+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>sp|Q24324.2|</Hit_id>
+  <Hit_def>RecName: Full=Dual specificity mitogen-activated protein kinase kinase dSOR1; Short=Downstream of RAF; Short=MAPKK [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>Q24324</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.711</Hsp_bit-score>
+      <Hsp_score>439</Hsp_score>
+      <Hsp_evalue>2.59448e-49</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>DLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLE----GAHVWKEQQLADLSRQILSGLAYLHSRH-IVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMC--AICMSQPPEAP----------------------ATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRA</Hsp_qseq>
+      <Hsp_hseq>DLEKLGELGSGNGGVVMKVRHTHTHLIMARKLIHLEVKPAIKKQILRELKVLHECNFPHIVGFYGAFYSDGEISICMEYMDGGSLDLILKRAGRIPESILGRITLAVLKGLSYLRDNHAIIHRDVKPSNILVNSSGEIKICDFGVSGQLIDSM--ANSFVGTRSYMSPERL-----QGTHYSVQSDIWSLGLSLVEMAIGMYPIPPPNTATLESIFADNAEESGQPTDEPRAMAIFELLDYIVNEPPPKLEHKIFSTEFKDFVDICLKKQPDERADLKTLLSHPWIRKA</Hsp_hseq>
+      <Hsp_midline>DL +   +GSG GG V KV H  +  + A K+I+   +  +++QI RE+++L + N P++V  +  F  +GEI + +E+MD GSL+     A    E  L  ++  +L GL+YL   H I+HRD+KPSN+L+NS+  +KI DFGVS  L  +M   NS VGT +YMSPER+     QG +     DIWSLG+S++E  +G +P P        S+    A    QP + P                         S EF+ F+  CL+++P +R     LL HP+I +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>sp|Q63980.1|</Hit_id>
+  <Hit_def>RecName: Full=Dual specificity mitogen-activated protein kinase kinase 1; Short=MAP kinase kinase 1; Short=MAPKK 1; AltName: Full=ERK activator kinase 1; AltName: Full=MAPK/ERK kinase 1; Short=MEK 1 [Cricetulus griseus]</Hit_def>
+  <Hit_accession>Q63980</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.326</Hsp_bit-score>
+      <Hsp_score>438</Hsp_score>
+      <Hsp_evalue>3.05471e-49</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>56</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>DLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWK------EQQLADLSRQILSGLAYLHSRH-IVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFP------------VSRQGDWA---------------------------SLMCAICMSQPPEAPA-TASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASPSQ</Hsp_qseq>
+      <Hsp_hseq>DFEKISELGAGNGGVVFKVSHKPSGLVMARKLIHLEIKPAIRNQIIRELQVLHECNSPYIVGFYGVFYSDGEISICMEHMDGGSLD--QVLKKAGRIPEQILGKVSIAVIKGLTYLREKHKIMHRDVKPSNILVNSRGEIKLCDFGVSGQLIDSM--ANSFVGTRSYMSPERL-----QGTHYSVQSDIWSMGLSLVEMAVGRYPIPPPDAKELELLFGCQVEGDAAETPPRPRTPGRPLSSYGMDSRPPMAIFELLDYIVNEPPAKLPSGVFSLEFQDFVNKCLIKNPAERADLKQLLVHAFIKRSDAEE</Hsp_hseq>
+      <Hsp_midline>D  + + +G+G GG V+KV H+PS  + A K+I+   +  +R QI RE+++L + N P +V  + +F  +GEI + +E MD GSL+   V K      EQ L  +S  ++ GL YL  +H I+HRD+KPSN+L+NS   +K+ DFGVS  L  +M   NS VGT +YMSPER+     QG +     DIWS+G+S++E  +GR+P P               +GD A                            L+  I    P + P+   S EF+ F++ CL + P +R    QLL H FI R+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>sp|P33886.1|</Hit_id>
+  <Hit_def>RecName: Full=Protein kinase wis1; AltName: Full=Protein kinase sty2 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>P33886</Hit_accession>
+  <Hit_len>605</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.178</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>4.63599e-49</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>316</Hsp_hit-from>
+      <Hsp_hit-to>581</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>NYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAH---VWKEQQLADLSRQILSGLAYLHSRH-IVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYA--GDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILR</Hsp_qseq>
+      <Hsp_hseq>NMSEIIKLEELGKGNYGVVYKALHQPTGVTMALKEIRLSLEEATFNQIIMELDILHKAVSPYIVDFYGAFFVEGSVFICMEYMDAGSMDKLYAGGIKDEGVLARTAYAVVQGLKTLKEEHNIIHRDVKPTNVLVNSNGQVKLCDFGVSGNLVASISKTN--IGCQSYMAPERIRVGGPTNGVLTYTVQADVWSLGLTILEMALGAYPYPPESYTSIFAQLSAICDGDPPSLPDSFSPEARDFVNKCLNKNPSLRPDYHELANHPWLLK</Hsp_hseq>
+      <Hsp_midline>N S++++   +G G  G VYK +H+P+    ALK I  + EE    QI  E++IL     P +V  +  F   G + + +E+MD GS++  +   +  E  LA  +  ++ GL  L   H I+HRD+KP+N+L+NS   VK+ DFGVS  L  ++   N  +G  +YM+PERI           Y    D+WSLG++ILE  LG +P+P        + + AIC   PP  P + SPE R F++ CL + P  R    +L  HP++L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>sp|Q91447.1|</Hit_id>
+  <Hit_def>RecName: Full=Dual specificity mitogen-activated protein kinase kinase 1; Short=MAP kinase kinase 1; Short=MAPKK 1; AltName: Full=ERK activator kinase 1; AltName: Full=MAPK/ERK kinase 1; Short=MEK1 [Serinus canaria]</Hit_def>
+  <Hit_accession>Q91447</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.629</Hsp_bit-score>
+      <Hsp_score>431</Hsp_score>
+      <Hsp_evalue>3.07235e-48</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>58</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>DLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWK------EQQLADLSRQILSGLAYLHSRH-IVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFP------------VSRQGD-----------------------------WASLMCAICMSQPPEAP-ATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASPSQ</Hsp_qseq>
+      <Hsp_hseq>DFEKISELGAGNGGVVFKVSHKPSGLIMARKLIHLEIKPAIRNQIIRELQVLHECNSPYIVGFYGAFYSDGEISICMEHMDGGSLD--QVLKKAGRIPEQILGKVSIAVIKGLTYLREKHKIMHRDVKPSNILVNSRGEIKLCDFGVSGQLIDSM--ANSFVGTRSYMSPERL-----QGTHYSVQSDIWSMGLSLVEMAIGRYPIPPPDSKELELMFGCPVEGDSPVTETSPRQRAPGRPMSSYGSDSRPPMAIFELLDYIVNEPPPKLPNGVFGSEFQDFVNKCLIKNPAERADLKQLMIHAFIKRSEAEE</Hsp_hseq>
+      <Hsp_midline>D  + + +G+G GG V+KV H+PS  + A K+I+   +  +R QI RE+++L + N P +V  +  F  +GEI + +E MD GSL+   V K      EQ L  +S  ++ GL YL  +H I+HRD+KPSN+L+NS   +K+ DFGVS  L  +M   NS VGT +YMSPER+     QG +     DIWS+G+S++E  +GR+P P               +GD                                L+  I    PP+ P      EF+ F++ CL + P +R    QL+ H FI R+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>sp|Q05116.2|</Hit_id>
+  <Hit_def>RecName: Full=Dual specificity mitogen-activated protein kinase kinase 1; Short=MAP kinase kinase 1; Short=MAPKK 1; AltName: Full=ERK activator kinase 1; AltName: Full=MAPK/ERK kinase 1; Short=MEK1 [Xenopus laevis]</Hit_def>
+  <Hit_accession>Q05116</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.629</Hsp_bit-score>
+      <Hsp_score>431</Hsp_score>
+      <Hsp_evalue>3.41553e-48</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>DLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLE----GAHVWKEQQLADLSRQILSGLAYLHSRH-IVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFP------------VSRQGDWAS-----------------------------LMCAICMSQPPEAPA-TASPEFRHFISCCLQREPGKRRSAMQLLQHPFI</Hsp_qseq>
+      <Hsp_hseq>DFEKVSELGAGNGGVVFKVSHKPTSLIMARKLIHLEIKPAIRNQIIRELQVLHECNSPYIVGFYGAFYSDGEISICMEHMDGGSLDQVLKKAGKIPEKILGKVSIAVIKGLTYLREKHKIMHRDVKPSNILVNSRGEIKLCDFGVSGQLIDSM--ANSFVGTRSYMSPERL-----QGTHYSVQSDIWSMGLSLVEMAIGRYPIPPPDAKELELIFGCSVERDPASSELAPRPRPPGRPISSYGPDSRPPMAIFELLDYIVNEPPPKLPSGVFGAEFQDFVNKCLVKNPAERADLKQLMVHSFI</Hsp_hseq>
+      <Hsp_midline>D  + + +G+G GG V+KV H+P+S + A K+I+   +  +R QI RE+++L + N P +V  +  F  +GEI + +E MD GSL+     A    E+ L  +S  ++ GL YL  +H I+HRD+KPSN+L+NS   +K+ DFGVS  L  +M   NS VGT +YMSPER+     QG +     DIWS+G+S++E  +GR+P P             S + D AS                             L+  I    PP+ P+     EF+ F++ CL + P +R    QL+ H FI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>sp|Q9XT09.3|</Hit_id>
+  <Hit_def>RecName: Full=Dual specificity mitogen-activated protein kinase kinase 1; Short=MAP kinase kinase 1; Short=MAPKK 1; AltName: Full=ERK activator kinase 1; AltName: Full=MAPK/ERK kinase 1; Short=MEK 1 [Pan troglodytes]</Hit_def>
+  <Hit_accession>Q9XT09</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.244</Hsp_bit-score>
+      <Hsp_score>430</Hsp_score>
+      <Hsp_evalue>4.15896e-48</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>56</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>DLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWK------EQQLADLSRQILSGLAYLHSRH-IVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFP------------VSRQGDWA---------------------------SLMCAICMSQPPEAPA-TASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASPSQ</Hsp_qseq>
+      <Hsp_hseq>DFEKISELGAGNGGVVFKVSHKPSGLVMARKLIHLEIKPAIRNQIIRELQVLHECNSPYIVGFYGAFYSDGEISICMEHMDGGSLD--QVLKKAGRIPEQILGKVSIAVIKGLTYLREKHKIMHRDVQPSNILVNSRGEIKLCDFGVSGQLIDSM--ANSFVGTRSYMSPERF-----QGTHYSVQSDIWSMGLSPVEMAVGRYPIPSPDAKELELMFGCQVEGDAAETPPRPRTPGRPLSSYGMDSRPPMAIFELLDYIVNEPPPKLPSGVFSLEFQDFVNKCLIKNPAERADLKQLMVHAFIKRSDAEE</Hsp_hseq>
+      <Hsp_midline>D  + + +G+G GG V+KV H+PS  + A K+I+   +  +R QI RE+++L + N P +V  +  F  +GEI + +E MD GSL+   V K      EQ L  +S  ++ GL YL  +H I+HRD++PSN+L+NS   +K+ DFGVS  L  +M   NS VGT +YMSPER      QG +     DIWS+G+S +E  +GR+P P               +GD A                            L+  I    PP+ P+   S EF+ F++ CL + P +R    QL+ H FI R+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>sp|O80396.1|</Hit_id>
+  <Hit_def>RecName: Full=Mitogen-activated protein kinase kinase 3; Short=AtMKK3; Short=MAP kinase kinase 3 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>O80396</Hit_accession>
+  <Hit_len>520</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.555</Hsp_bit-score>
+      <Hsp_score>436</Hsp_score>
+      <Hsp_evalue>8.3638e-48</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>358</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>IGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDV-NHPNVVKCHEMFD--QNGEIQVLLEFMDKGSLEGAHVWK------EQQLADLSRQILSGLAYLHS-RHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATA-SPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASPSQNRSPQNLHQLLPPPRPL</Hsp_qseq>
+      <Hsp_hseq>IGSGASSVVQRAIHIPNHRILALKKI-NIFEREKRQQLLTEIRTLCEAPCHEGLVDFHGAFYSPDSGQISIALEYMNGGSL--ADILKVTKKIPEPVLSSLFHKLLQGLSYLHGVRHLVHRDIKPANLLINLKGEPKITDFGISAGLENSMAMCATFVGTVTYMSPERIRND----SY-SYPADIWSLGLALFECGTGEFPY-IANEGP-VNLMLQILDDPSPTPPKQEFSPEFCSFIDACLQKDPDARPTADQLLSHPFITKHEKERVDLATFVQSIFDPTQRL</Hsp_hseq>
+      <Hsp_midline>IGSGA   V + IH P+ R+ ALK I    E   R+Q+  EI  L +   H  +V  H  F    +G+I + LE+M+ GSL  A + K      E  L+ L  ++L GL+YLH  RH+VHRDIKP+NLLIN     KI DFG+S  L  +M  C + VGT+ YMSPERI  D     Y  Y  DIWSLG+++ E   G FP+ ++ +G   +LM  I     P  P    SPEF  FI  CLQ++P  R +A QLL HPFI +    +      +  +  P + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>sp|P36507.1|</Hit_id>
+  <Hit_def>RecName: Full=Dual specificity mitogen-activated protein kinase kinase 2; Short=MAP kinase kinase 2; Short=MAPKK 2; AltName: Full=ERK activator kinase 2; AltName: Full=MAPK/ERK kinase 2; Short=MEK 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>P36507</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.474</Hsp_bit-score>
+      <Hsp_score>428</Hsp_score>
+      <Hsp_evalue>8.49048e-48</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>60</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>SDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWKEQQ------LADLSRQILSGLAYLHSRH-IVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFP------------------------------------VSRQG-------DWASLMCAICMSQPPEAP-ATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRAS</Hsp_qseq>
+      <Hsp_hseq>DDFERISELGAGNGGVVTKVQHRPSGLIMARKLIHLEIKPAIRNQIIRELQVLHECNSPYIVGFYGAFYSDGEISICMEHMDGGSLD--QVLKEAKRIPEEILGKVSIAVLRGLAYLREKHQIMHRDVKPSNILVNSRGEIKLCDFGVSGQLIDSM--ANSFVGTRSYMAPERL-----QGTHYSVQSDIWSMGLSLVELAVGRYPIPPPDAKELEAIFGRPVVDGEEGEPHSISPRPRPPGRPVSGHGMDSRPAMAIFELLDYIVNEPPPKLPNGVFTPDFQEFVNKCLIKNPAERADLKMLTNHTFIKRSE</Hsp_hseq>
+      <Hsp_midline> D  R + +G+G GG V KV HRPS  + A K+I+   +  +R QI RE+++L + N P +V  +  F  +GEI + +E MD GSL+   V KE +      L  +S  +L GLAYL  +H I+HRD+KPSN+L+NS   +K+ DFGVS  L  +M   NS VGT +YM+PER+     QG +     DIWS+G+S++E  +GR+P P                                    VS  G           L+  I    PP+ P    +P+F+ F++ CL + P +R     L  H FI R+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>sp|Q90891.1|</Hit_id>
+  <Hit_def>RecName: Full=Dual specificity mitogen-activated protein kinase kinase 2; Short=MAP kinase kinase 2; Short=MAPKK 2; AltName: Full=ERK activator kinase 2; AltName: Full=MAPK/ERK kinase 2; Short=MEK2 [Gallus gallus]</Hit_def>
+  <Hit_accession>Q90891</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.474</Hsp_bit-score>
+      <Hsp_score>428</Hsp_score>
+      <Hsp_evalue>9.60914e-48</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>371</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>56</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>SDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLE----GAHVWKEQQLADLSRQILSGLAYLHSRH-IVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFP----------------VSRQGD------WA---------------------SLMCAICMSQPPEAP-ATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRAS</Hsp_qseq>
+      <Hsp_hseq>DDFERISELGAGNGGVVTKVQHKPSGLIMARKLIHLEIKPAIRNQIIRELQVLHECNSPYIVGFYGAFYSDGEISICMEHMDGGSLDQVLKEAKRIPEEILGKVSIAVLRGLAYLREKHQIMHRDVKPSNILVNSRGEIKLCDFGVSGQLIDSM--ANSFVGTRSYMSPERL-----QGTHYSVQSDIWSMGLSLVELSIGRYPIPPPDSKELEAIFGRPVVDGAEGESHSVSPWARPPGRPISGHGMDSRPAMAIFELLDYIVNEPPPKLPNGVFTQDFQEFVNKCLIKNPAERADLKMLMNHTFIKRSE</Hsp_hseq>
+      <Hsp_midline> D  R + +G+G GG V KV H+PS  + A K+I+   +  +R QI RE+++L + N P +V  +  F  +GEI + +E MD GSL+     A    E+ L  +S  +L GLAYL  +H I+HRD+KPSN+L+NS   +K+ DFGVS  L  +M   NS VGT +YMSPER+     QG +     DIWS+G+S++E  +GR+P P                   +G+      WA                      L+  I    PP+ P    + +F+ F++ CL + P +R     L+ H FI R+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>sp|Q1HG70.1|</Hit_id>
+  <Hit_def>RecName: Full=Dual specificity mitogen-activated protein kinase kinase 2; Short=MAP kinase kinase 2; Short=MAPKK 2; AltName: Full=ERK activator kinase 2; AltName: Full=MAPK/ERK kinase 2; Short=MEK 2 [Canis lupus familiaris]</Hit_def>
+  <Hit_accession>Q1HG70</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.703</Hsp_bit-score>
+      <Hsp_score>426</Hsp_score>
+      <Hsp_evalue>1.90643e-47</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>60</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>SDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWKEQQ------LADLSRQILSGLAYLHSRH-IVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFP------------------------------------VSRQGDWA-------SLMCAICMSQPPEAP-ATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRAS</Hsp_qseq>
+      <Hsp_hseq>DDFERISELGAGNGGVVTKVQHRPSGLIMARKLIHLEIKPAIRNQIIRELQVLHECNSPYIVGFYGAFYSDGEISICMEHMDGGSLD--QVLKEAKRIPEEILGKVSIAVLRGLAYLREKHQIMHRDVKPSNILVNSRGEIKLCDFGVSGQLIDSM--ANSFVGTRSYMSPERL-----QGTHYSVQSDIWSMGLSLVELSIGRYPIPPPDAKELEAIFGRPMVDGIEGEPHSISPRPRPPGRPISGHGTDSRPAMAIFELLDYIVNEPPPKLPNGVFTQDFQEFVNKCLIKNPAERADLKMLMSHTFIKRSE</Hsp_hseq>
+      <Hsp_midline> D  R + +G+G GG V KV HRPS  + A K+I+   +  +R QI RE+++L + N P +V  +  F  +GEI + +E MD GSL+   V KE +      L  +S  +L GLAYL  +H I+HRD+KPSN+L+NS   +K+ DFGVS  L  +M   NS VGT +YMSPER+     QG +     DIWS+G+S++E  +GR+P P                                    +S  G  +        L+  I    PP+ P    + +F+ F++ CL + P +R     L+ H FI R+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>sp|Q63932.2|</Hit_id>
+  <Hit_def>RecName: Full=Dual specificity mitogen-activated protein kinase kinase 2; Short=MAP kinase kinase 2; Short=MAPKK 2; AltName: Full=ERK activator kinase 2; AltName: Full=MAPK/ERK kinase 2; Short=MEK 2 [Mus musculus]</Hit_def>
+  <Hit_accession>Q63932</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.777</Hsp_bit-score>
+      <Hsp_score>421</Hsp_score>
+      <Hsp_evalue>1.03396e-46</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>374</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>61</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>SDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWKEQQ------LADLSRQILSGLAYLHSRH-IVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPF--------------PVSRQGDWA------------------------------SLMCAICMSQPPEAPA-TASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRAS</Hsp_qseq>
+      <Hsp_hseq>DDFERISELGAGNGGVVTKARHRPSGLIMARKLIHLEIKPAVRNQIIRELQVLHECNSPYIVGFYGAFYSDGEISICMEHMDGGSLD--QVLKEAKRIPEDILGKVSIAVLRGLAYLREKHQIMHRDVKPSNILVNSRGEIKLCDFGVSGQLIDSM--ANSFVGTRSYMSPERL-----QGTHYSVQSDIWSMGLSLVELAIGRYPIPPPDAKELEASFGRPVVDGADGEPHSVSPRPRPPGRPISVGHGMDSRPAMAIFELLDYIVNEPPPKLPSGVFSSDFQEFVNKCLIKNPAERADLKLLMNHAFIKRSE</Hsp_hseq>
+      <Hsp_midline> D  R + +G+G GG V K  HRPS  + A K+I+   +  VR QI RE+++L + N P +V  +  F  +GEI + +E MD GSL+   V KE +      L  +S  +L GLAYL  +H I+HRD+KPSN+L+NS   +K+ DFGVS  L  +M   NS VGT +YMSPER+     QG +     DIWS+G+S++E  +GR+P               PV    D                                 L+  I    PP+ P+   S +F+ F++ CL + P +R     L+ H FI R+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>sp|P36506.1|</Hit_id>
+  <Hit_def>RecName: Full=Dual specificity mitogen-activated protein kinase kinase 2; Short=MAP kinase kinase 2; Short=MAPKK 2; AltName: Full=ERK activator kinase 2; AltName: Full=MAPK/ERK kinase 2; Short=MEK 2 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P36506</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.392</Hsp_bit-score>
+      <Hsp_score>420</Hsp_score>
+      <Hsp_evalue>1.26099e-46</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>60</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>SDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWKEQQ------LADLSRQILSGLAYLHSRH-IVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFP------------------------------------VSRQG-------DWASLMCAICMSQPPEAPA-TASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRAS</Hsp_qseq>
+      <Hsp_hseq>DDFERISELGAGNGGVVTKARHRPSGLIMARKLIHLEIKPAVRNQIIRELQVLHECNSPYIVGFYGAFYSDGEISICMEHMDGGSLD--QVLKEAKRIPEDILGKVSIAVLRGLAYLREKHQIMHRDVKPSNILVNSRGEIKLCDFGVSGQLIDSM--ANSFVGTRSYMSPERL-----QGTHYSVQSDIWSMGLSLVELAIGRYPIPPPDAKELEASFGRPVVDGADGEPHSVSPRPRPPGRPISGHGMDSRPAMAIFELLDYIVNEPPPKLPSGVFSSDFQEFVNKCLIKNPAERADLKLLTNHAFIKRSE</Hsp_hseq>
+      <Hsp_midline> D  R + +G+G GG V K  HRPS  + A K+I+   +  VR QI RE+++L + N P +V  +  F  +GEI + +E MD GSL+   V KE +      L  +S  +L GLAYL  +H I+HRD+KPSN+L+NS   +K+ DFGVS  L  +M   NS VGT +YMSPER+     QG +     DIWS+G+S++E  +GR+P P                                    +S  G           L+  I    PP+ P+   S +F+ F++ CL + P +R     L  H FI R+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>sp|Q90321.1|</Hit_id>
+  <Hit_def>RecName: Full=Dual specificity mitogen-activated protein kinase kinase 2; Short=MAP kinase kinase 2; Short=MAPKK 2; AltName: Full=ERK activator kinase 2; AltName: Full=MAPK/ERK kinase 2; Short=MEK2 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>Q90321</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.466</Hsp_bit-score>
+      <Hsp_score>415</Hsp_score>
+      <Hsp_evalue>7.79941e-46</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>56</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>IGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLE----GAHVWKEQQLADLSRQILSGLAYLHSRH-IVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPF------------------------------------PVSRQG-------DWASLMCAICMSQPPEAP-ATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRAS</Hsp_qseq>
+      <Hsp_hseq>LGAGNGGVVHKVRHKPSRLVMARKLIHLEIKPAIRNQIIRELQVLHECNSPYIVGFYGAFYSDGEISICMEHMDGGSLDQVLKEARRIPEEILGKVSIAVLRGLVYLREKHQIMHRDVKPSNILVNSRGEIKLCDFGVSGQLIDSM--ANSFVGTRSYMSPERL-----QGTHYSVQSDVWSMGLSLVELAIGRFPIPPPDAKELEAIFGRPVLDKGGAEGHSMSPRQRPPGRPVSGHGMDSRPAMAIFELLDYIVNEPPPKLPHGVFTTDFEEFVMKCLMKNPADRADLKMLMGHTFIKRAE</Hsp_hseq>
+      <Hsp_midline>+G+G GG V+KV H+PS  + A K+I+   +  +R QI RE+++L + N P +V  +  F  +GEI + +E MD GSL+     A    E+ L  +S  +L GL YL  +H I+HRD+KPSN+L+NS   +K+ DFGVS  L  +M   NS VGT +YMSPER+     QG +     D+WS+G+S++E  +GRFP                                     PVS  G           L+  I    PP+ P    + +F  F+  CL + P  R     L+ H FI RA </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>sp|B0XPE4.1|</Hit_id>
+  <Hit_def>RecName: Full=Mitogen-activated protein kinase kinae mkk2; Short=MAPKK mkk2 [Aspergillus fumigatus A1163] &gt;sp|Q4WJJ0.1| RecName: Full=Mitogen-activated protein kinase kinae mkk2; Short=MAPKK mkk2; AltName: Full=MEK mkk2 [Aspergillus fumigatus Af293]</Hit_def>
+  <Hit_accession>B0XPE4</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>9.38494e-45</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>203</Hsp_hit-from>
+      <Hsp_hit-to>482</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>IEAKNYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMF--DQNGEIQVLLEFMDKGSLEGAH--VWK------EQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVS------RQGDWASLMCAIC------MSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFIL</Hsp_qseq>
+      <Hsp_hseq>LAASEQKKIIELGSLGEGAGGAVTRCKLKDGKTVFALKIITTDPNPDVKKQIVRELNFNKDCASEHICRYYGAFMDKSTGTISIAMEFCEGGSLDSIYKEVKKLGGRTGEKVLGKIAEGVLNGLTYLHSRKIIHRDIKPSNILLCRNGQVKLCDFGVSGEFGTKGD-ANTFIGTSYYMAPERIT-----GQSYTITSDVWSLGVTLLEVAQHRFPFPADGTEMQPRAG-LIDLLTYIVRQPIPKLKDEPENRIRWSDNFKYFIECCLEKEPPRRATPWRMLEHPWML</Hsp_hseq>
+      <Hsp_midline>+ A     ++    +G GAGG V +   +    ++ALK+I  +    V++QI RE+   +D    ++ + +  F     G I + +EF + GSL+  +  V K      E+ L  ++  +L+GL YLHSR I+HRDIKPSN+L+     VK+ DFGVS       D  N+ +GT  YM+PERI      G+      D+WSLGV++LE    RFPFP        R G    L+  I       +   PE     S  F++FI CCL++EP +R +  ++L+HP++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>sp|Q99078.2|</Hit_id>
+  <Hit_def>RecName: Full=Dual specificity protein kinase FUZ7 [Mycosarcoma maydis]</Hit_def>
+  <Hit_accession>Q99078</Hit_accession>
+  <Hit_len>435</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>9.05531e-43</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>283</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>IEAKNYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWKE------QQLADLSRQILSGLAYLHSRH-IVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGD</Hsp_qseq>
+      <Hsp_hseq>LDLKN-EDLKTLSELGAGNGGTVTKVLHEKSGTVMAKKVVFIDAKPSVRKQILRELQILHECNSPYIVSFYGAYLNEPHICMCMEFMQKDSLDG--IYKKYGPISPEICGKIAVAVSHGLTYLYDVHRIIHRDVKPSNILVNGAGQIKICDFGVSGELINSI--ADTFVGTSTYMSPERI-----QGDQYSVKSDVWSLGVSIIELALGRFPFAENEEDD</Hsp_hseq>
+      <Hsp_midline>++ KN  DL   + +G+G GGTV KV+H  S  + A KV++ + + +VR+QI RE++IL + N P +V  +  +     I + +EFM K SL+G  ++K+      +    ++  +  GL YL+  H I+HRD+KPSN+L+N A  +KI DFGVS  L  ++   ++ VGT  YMSPERI     QG       D+WSLGVSI+E  LGRFPF  + + D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>sp|Q0PKV7.1|</Hit_id>
+  <Hit_def>RecName: Full=Mitogen-activated protein kinase kinase 5; AltName: Full=LmxMKK5 [Leishmania mexicana]</Hit_def>
+  <Hit_accession>Q0PKV7</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.918</Hsp_bit-score>
+      <Hsp_score>398</Hsp_score>
+      <Hsp_evalue>2.36391e-42</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>345</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>281</Hsp_align-len>
+      <Hsp_qseq>VRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILR--DVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWKEQ---QLADLSRQILSGLAYLH-SRHIVHRDIKPSNLLINS-AKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGD-----WASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILR---ASPSQNRSP</Hsp_qseq>
+      <Hsp_hseq>TEGGFLGKGSSGSVRRAVHRGSNKVVALKEIKVTGQTHIN-EIRRELETLHAGDFATPYLVSFYGAFAHEGSVFIAMEAMD-GSLH--ELYKPVPPPVLACITRLMLKGLTYLHRNRHLIHRDLKPSNVLYNSRTGDIKISDFGVSSNLECTKADAHSFVGTVTYMSPERL-----RGEHYSYGADIWSLGLVVAELAVGVCPYAGLRGGSSEARFWALLQHLNGDGTALELPPEMDSDLADFISACVVKSPDRRPTCTELLRHPFIVRYTGAAPEAEAKP</Hsp_hseq>
+      <Hsp_midline>  G  +G G+ G+V + +HR S+++ ALK I    +  +  +I RE+E L   D   P +V  +  F   G + + +E MD GSL    ++K      LA ++R +L GL YLH +RH++HRD+KPSN+L NS   ++KI+DFGVS  L  T    +S VGT+ YMSPER+     +G++  Y  DIWSLG+ + E  +G  P+   R G      WA L          E P     +   FIS C+ + P +R +  +LL+HPFI+R   A+P     P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>sp|P08018.4|</Hit_id>
+  <Hit_def>RecName: Full=MAP kinase kinase PBS2; AltName: Full=Polymyxin B resistance protein 2; AltName: Full=Suppressor of fluoride sensitivity 4 [Saccharomyces cerevisiae S288C]</Hit_def>
+  <Hit_accession>P08018</Hit_accession>
+  <Hit_len>668</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>4.27343e-42</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>364</Hsp_hit-from>
+      <Hsp_hit-to>625</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>NRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHV-------WKEQQLADLSRQILSGLAYLHSRH-IVHRDIKPSNLLINSAK-NVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINT-DLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATA-SPEFRHFISCCLQREPGKRRSAMQLLQHPFILR</Hsp_qseq>
+      <Hsp_hseq>DELGHGNYGNVSKVLHKPTNVIMATKEVRLELDEAKFRQILMELEVLHKCNSPYIVDFYGAFFIEGAVYMCMEYMDGGSLDKIYDESSEIGGIDEPQLAFIANAVIHGLKELKEQHNIIHRDVKPTNILCSANQGTVKLCDFGVSGNLVASLAKTN--IGCQSYMAPERIKSLNPDRATYT-VQSDIWSLGLSILEMALGRYPYPPETYDNIFSQLSAIVDGPPPRLPSDKFSSDAQDFVSLCLQKIPERRPTYAALTEHPWLVK</Hsp_hseq>
+      <Hsp_midline>+ +G G  G V KV+H+P++ + A K +    +E   RQI  E+E+L   N P +V  +  F   G + + +E+MD GSL+  +          E QLA ++  ++ GL  L  +H I+HRD+KP+N+L ++ +  VK+ DFGVS  L  ++   N  +G  +YM+PERI + + ++  Y     DIWSLG+SILE  LGR+P+P     +  S + AI    PP  P+   S + + F+S CLQ+ P +R +   L +HP++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>sp|Q55CL6.1|</Hit_id>
+  <Hit_def>RecName: Full=Dual specificity mitogen-activated protein kinase kinase 1; Short=MAP kinase kinase 1; Short=MAPKK 1; AltName: Full=ERK activator kinase 1; AltName: Full=MAPK/ERK kinase 1; Short=DdMEK1; Short=MEK1; AltName: Full=MAPK/ERK kinase A; Short=MEKA [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q55CL6</Hit_accession>
+  <Hit_len>660</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>1.68896e-41</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>489</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>NTNSSIEAKNYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSL----EGAHVWKEQQLADLSRQILSGLAYLHSR-HIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPF</Hsp_qseq>
+      <Hsp_hseq>DTNLSYDLK---DLKIIRVLGRGAGGVVKLAYHETSGTYIALKVITLDIQENIRKQIILELKTLHKTSYPYIVSFYDAFYTEGSIFIALEFMELGSLSDIMKKTSTIPEPVLGKIAFQVLQGLVYLHRKLHLIHRDIKPSNILVNNKGEAKIADFGVSGQLQHTLSKAVTWVGTVTYMSPERIS-----GRSYSFDSEIWSLGLTILECAIGKFPY</Hsp_hseq>
+      <Hsp_midline>+TN S + K   DL     +G GAGG V    H  S    ALKVI  + +E +R+QI  E++ L   ++P +V  ++ F   G I + LEFM+ GSL    +      E  L  ++ Q+L GL YLH + H++HRDIKPSN+L+N+    KIADFGVS  L  T+    + VGT+ YMSPERI+     G+   +  +IWSLG++ILE  +G+FP+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>8.36595e-07</Hsp_evalue>
+      <Hsp_query-from>282</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>590</Hsp_hit-from>
+      <Hsp_hit-to>641</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>GDWASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFI</Hsp_qseq>
+      <Hsp_hseq>GFWVLLDC-IVKEEVPILPSTFSKEFRSFISECLQKEPTERPTASNLLNHEFV</Hsp_hseq>
+      <Hsp_midline>G W  L C I   + P  P+T S EFR FIS CLQ+EP +R +A  LL H F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>sp|Q86IX1.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase dst1 [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q86IX1</Hit_accession>
+  <Hit_len>737</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.762</Hsp_bit-score>
+      <Hsp_score>395</Hsp_score>
+      <Hsp_evalue>3.49292e-41</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>RIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGS----LEGAHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATA-----SPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASP</Hsp_qseq>
+      <Hsp_hseq>RLGKGSFGQVFKAVHFANGKVVAIKIISLDDQEAIK-DVRKEISILAECNYPNIVQYFGSYFKDHQLWIVMEYCGGGSVSDLLQVIDTISEDEIALICREALKGLNYLHEFKKIHRDIKGGNILLNDRGEVKLADFGVSAQLFNTFSKRNTFVGTPYWMAPEVI----QENKYDGKA-DVWSLGITAIEMAEGLPP------NSNVHPMRVIFMIPREESPALTDKSIWSDKFQDFISKCLTKDPAERPTAKELLNHEFIQTKKP</Hsp_hseq>
+      <Hsp_midline>R+G G+ G V+K +H  + ++ A+K+I  + +E ++  + +EI IL + N+PN+V+    + ++ ++ +++E+   GS    L+      E ++A + R+ L GL YLH    +HRDIK  N+L+N    VK+ADFGVS  L  T    N+ VGT  +M+PE I     + KYDG A D+WSLG++ +E   G  P            M  I M    E+PA       S +F+ FIS CL ++P +R +A +LL H FI    P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>sp|P32490.1|</Hit_id>
+  <Hit_def>RecName: Full=MAP kinase kinase MKK1/SSP32 [Saccharomyces cerevisiae S288C]</Hit_def>
+  <Hit_accession>P32490</Hit_accession>
+  <Hit_len>508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>4.74065e-41</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>227</Hsp_hit-from>
+      <Hsp_hit-to>488</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>IGSGAGGTVYKVIHRPSSRLYALKVIYG-NHEETVRRQICREIEILRDVNHPNVVKCHEMF--DQNGEIQVLLEFMDKGSLEGAHV--------WKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGD----WASLMCAICMS----QPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFI</Hsp_qseq>
+      <Hsp_hseq>LGEGAGGSVSKCKLKNGSKIFALKVINTLNTDPEYQKQIFRELQFNRSFQSEYIVRYYGMFTDDENSSIYIAMEYMGGRSLDAIYKNLLERGGRISEKVLGKIAEAVLRGLSYLHEKKVIHRDIKPQNILLNENGQVKLCDFGVSGEAVNSL--ATTFTGTSFYMAPERI-----QGQPYSVTSDVWSLGLTILEVANGKFPCSSEKMAANIAPFELLMWILTFTPELKDEPESNIIWSPSFKSFIDYCLKKDSRERPSPRQMINHPWI</Hsp_hseq>
+      <Hsp_midline>+G GAGG+V K   +  S+++ALKVI   N +   ++QI RE++  R      +V+ + MF  D+N  I + +E+M   SL+  +           E+ L  ++  +L GL+YLH + ++HRDIKP N+L+N    VK+ DFGVS     ++    +  GT  YM+PERI     QG+      D+WSLG++ILE   G+FP    +       +  LM  +  +      PE+    SP F+ FI  CL+++  +R S  Q++ HP+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>sp|G4NEB8.1|</Hit_id>
+  <Hit_def>RecName: Full=Mitogen-activated protein kinase kinae MST7; Short=MAPKK MST7; AltName: Full=MEK MST7 [Pyricularia oryzae 70-15]</Hit_def>
+  <Hit_accession>G4NEB8</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>5.02596e-41</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>SDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMF-DQNGEIQVLLEFMDKGSLEG-AHVW---KEQQLADLSRQILSGLAYLHSRH-IVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWA--------SLMCAICMSQPPEAPAT-ASPE-FRHFISCCLQREPGKRRSAMQLLQH-PFILRASPSQNRSPQNLHQ</Hsp_qseq>
+      <Hsp_hseq>EDLEVIKDLGSGNGGTVSKVRHIPTNTVMARKVIHVEAKREMRKRIVRELQIMHSCNSEYIVTFYGAFLNENNDVIMCMEYADVGSLDRVSRVFGPIRVDVLGKIAEATLGGLTYLYAKHHIMHRDIKPSNILVNSRGSIKLCDFGVSGELINSI--ADTFVGTSTYMAPERI-----QGEKYTVKSDVWSFGLSIMELAIGKFPFAASEQLSDAESAPAGILDLLQQIVHEPAPKLPKSDAFPQILEDMIQKCLYKNPDDRPTPEELFERDPFVQAA----KRTPVDLRE</Hsp_hseq>
+      <Hsp_midline> DL     +GSG GGTV KV H P++ + A KVI+   +  +R++I RE++I+   N   +V  +  F ++N ++ + +E+ D GSL+  + V+   +   L  ++   L GL YL+++H I+HRDIKPSN+L+NS  ++K+ DFGVS  L  ++   ++ VGT  YM+PERI     QG+      D+WS G+SI+E  +G+FPF  S Q   A         L+  I     P+ P + A P+     I  CL + P  R +  +L +  PF+  A     R+P +L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>sp|O09110.2|</Hit_id>
+  <Hit_def>RecName: Full=Dual specificity mitogen-activated protein kinase kinase 3; Short=MAP kinase kinase 3; Short=MAPKK 3; AltName: Full=MAPK/ERK kinase 3; Short=MEK 3 [Mus musculus]</Hit_def>
+  <Hit_accession>O09110</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>1.84891e-40</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>346</Hsp_align-len>
+      <Hsp_qseq>PIQSPPGVSVPVKSRPRRRPDLTLPLPQRDVSLAVPLPLPPTSGGSGGSSGSAPSSGGSASSTNTNSSIEAKNYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEI-LRDVNHPNVVKCHEMFDQNGEIQVLLEFMD-------KGSLEGAHVWKEQQLADLSRQILSGLAYLHSR-HIVHRDIKPSNLLINSAKNVKIADFGVSRIL----AQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATA-SPEFRHFISCCLQREPGKRRSAMQLLQHPFI</Hsp_qseq>
+      <Hsp_hseq>PAASPPASLPQTKGKSKRKKDLRISCVSKP---PVSNPTPPRN----------LDSRTFITIGDRNFEVEA---DDLVTISELGRGAYGVVEKVRHAQSGTIMAVKRIRATVNTQEQKRLLMDLDINMRTVDCFYTVTFYGALFREGDVWICMELMDTSLDKFYRKVLEKNMKIPEDILGEIAVSIVRALEHLHSKLSVIHRDVKPSNVLINKEGHVKMCDFGISGYLVDSVAKTMD-----AGCKPYMAPERINPELNQKGYN-VKSDVWSLGITMIEMAILRFPY--ESWGTPFQQLKQVVEEPSPQLPADQFSPEFVDFTSQCLRKNPAERMSYLELMEHPFF</Hsp_hseq>
+      <Hsp_midline>P  SPP      K + +R+ DL +    +     V  P PP +            S    +  + N  +EA    DLV  + +G GA G V KV H  S  + A+K I        ++++  +++I +R V+    V  +    + G++ + +E MD       +  LE      E  L +++  I+  L +LHS+  ++HRD+KPSN+LIN   +VK+ DFG+S  L    A+TMD      G   YM+PERIN +LNQ  Y+    D+WSLG++++E  + RFP+     G     +  +     P+ PA   SPEF  F S CL++ P +R S ++L++HPF </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>sp|Q9GRT1.2|</Hit_id>
+  <Hit_def>RecName: Full=Putative mitogen-activated protein kinase kinase 4; AltName: Full=LmxPK4 [Leishmania mexicana]</Hit_def>
+  <Hit_accession>Q9GRT1</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>3.33123e-40</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>APSSGGSASSTNTNSSIEAKNYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVI-YGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSL--------EGAHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPP----EAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRAS</Hsp_qseq>
+      <Hsp_hseq>GPGSSSAGGQPKSDAVMNKIKFEDLRIGSELGKGSQGKVRVAQHKLTGEKYAMKYIAFDGDSDDMRSALEAELRQVAAVKHHNVVSSYEAFFRDGRLYIVLEYMDCGTMNNLIDRHPEG---FSEDMLAYIARELFKGLEFLHHLNMIHRDIKPANVLANTKGEIKISDFGVAKTLSGGDLQTLSAQGSVPYMSPERI-----QSKPYSFNSDIWSAGLTIAECAFREYPF-ASLKPKLFELCQAIASGTAKINWDDRETKFSDEFKEFIELCL-RPEATRPSATEMLSHSLIQKAS</Hsp_hseq>
+      <Hsp_midline> P S  +     +++ +    + DL  G+ +G G+ G V    H+ +   YA+K I +    + +R  +  E+  +  V H NVV  +E F ++G + ++LE+MD G++        EG   + E  LA ++R++  GL +LH  +++HRDIKP+N+L N+   +KI+DFGV++ L+       S+ G++ YMSPERI     Q K   +  DIWS G++I E     +PF  S +     L  AI          +     S EF+ FI  CL R    R SA ++L H  I +AS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>sp|Q9NGW9.1|</Hit_id>
+  <Hit_def>RecName: Full=Probable serine/threonine-protein kinase mkcB; AltName: Full=MAP kinase cascade B [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q9NGW9</Hit_accession>
+  <Hit_len>714</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>3.55813e-40</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>342</Hsp_query-to>
+      <Hsp_hit-from>436</Hsp_hit-from>
+      <Hsp_hit-to>695</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>KNYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEM-FDQNGEIQVLLEFMDKGSLE-GAHVWK--EQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASPSQN</Hsp_qseq>
+      <Hsp_hseq>KMYKD---SDQVGKGGFGTVYFAKSTKEKRLVAIKKM-PHVTKRQQQQNFREAAILAKCDHPNIVKLHTCHIDKDSNLWIVMEFMEGGTFEEAAKAWKFNENNLAYVAKELLKGLQYLHENHMVHRDLKSANIMMSVEGKVKLIDFGLCEDVA-TSTPMH-MVGSPFWMAPEMI-----QQKYHSTPVDIWSFAISLLEMANQR-P-PMMESAVKAMFTVATDGATGFDDPALWSDCFKDFLSLCLKQDPAERATAEELLKHPFIKKADSRDN</Hsp_hseq>
+      <Hsp_midline>K Y D    +++G G  GTVY        RL A+K +  +  +  ++Q  RE  IL   +HPN+VK H    D++  + +++EFM+ G+ E  A  WK  E  LA +++++L GL YLH  H+VHRD+K +N++++    VK+ DFG+   +A T  P +  VG+  +M+PE I     Q KY     DIWS  +S+LE    R P P+      A    A   +   + PA  S  F+ F+S CL+++P +R +A +LL+HPFI +A    N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>sp|Q54TN4.1|</Hit_id>
+  <Hit_def>RecName: Full=Probable serine/threonine-protein kinase mkcE; AltName: Full=MAP kinase cascade E [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54TN4</Hit_accession>
+  <Hit_len>715</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>3.57778e-40</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>687</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>RIGS-----GAGGTVYKVIH---RPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGE-IQVLLEFMDKGSLEGA---HVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSR-QGDWASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRAS</Hsp_qseq>
+      <Hsp_hseq>RIGENAEVKGAFGTVYQVFYVNGQYNNVDVALKKM-DHKSEKKRRNNLNEISILRYLKHPNIVTYINSYEKNDEEIWMVMEYMDGGTIRDAISNFTFTEKYVAYITKEILHSLEYLASLNIAHRDLKSSNIMINSKAEVKLIDFGFSIDLTHLKQDIN-MCGSPFYMSPEQI-----QDKAHGLAVDIWSLGIVVAEMVRGRVPHHKSKIKAMFLAGTVGVKFSKEKKYSCHWSPELFDFLNVCLQMDPTKRPTPTQLLQHPFIATAA</Hsp_hseq>
+      <Hsp_midline>RIG      GA GTVY+V +   + ++   ALK +  +  E  RR    EI ILR + HPN+V     +++N E I +++E+MD G++  A     + E+ +A ++++IL  L YL S +I HRD+K SN++INS   VK+ DFG S  L       N   G+  YMSPE+I     Q K  G A DIWSLG+ + E   GR P   S+ +  + +    +  S+  +     SPE   F++ CLQ +P KR +  QLLQHPFI  A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>sp|Q54CY9.1|</Hit_id>
+  <Hit_def>RecName: Full=Probable myosin light chain kinase DDB_G0292624 [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54CY9</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>6.39348e-40</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>RIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHV----WKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIA--DFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASPSQ</Hsp_qseq>
+      <Hsp_hseq>EIGKGAFSVVFLVTEKKTKKQWAMKII--DKKSSSKAALETEIEIMKKVDHPNIVKMHEYFESTDKIYLVVELVTGGPLFDRIVDKKSFTEKEAKLITQQLLQSLVYLHSIGIVHRDLKPENLLLKTPTDLTVALSDFGLSKIVGDDV-FMKTTCGTPSYVAPEVLNNISNSPTAYSDAVDMWGVGVITYILLCGFPPFYSEDIRKLFESILSASYDFPNDYWGNVSKEAKHFINCLLTVEPTKRYSAKQALEHPWIIENNQTQ</Hsp_hseq>
+      <Hsp_midline> IG GA   V+ V  + + + +A+K+I  + + + +  +  EIEI++ V+HPN+VK HE F+   +I +++E +  G L    V    + E++   +++Q+L  L YLHS  IVHRD+KP NLL+ +  ++ +A  DFG+S+I+   +    ++ GT +Y++PE +N   N       A D+W +GV       G  PF           + +     P +     S E +HFI+C L  EP KR SA Q L+HP+I+  + +Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>sp|Q54JG7.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase dst4 [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54JG7</Hit_accession>
+  <Hit_len>485</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>9.7773e-40</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>IGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRD-VNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEG-----AHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPF----PVSRQGDWASLMCAICMSQPP--EAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASP-SQNRSPQNLHQLLPPPR</Hsp_qseq>
+      <Hsp_hseq>IGQGSFGVVCTCINTVNNEVVAIKFLEMEGEE--NSSLKKEITILKNTVRCPYIVKYHGCYIKENNLMIVMEYCDGGSILDIMQMCSITLTEAQIAAILYQIVEGLVYLHSNKILHRDIKAGNVLVNKLGQAKLADFGVSAILVNTGFKQKTVVGSPYWMSPEVISPPKGSNGYDSKA-DIWSLGITAIEMAESKPPLFNLNPV-------KVIFVIPFRQAPTLEVPGNWSPEFNDFISVCLNKEADKRPSAVDLLNHPFIKKGKEHSQPTISEMVEQCIPTMK</Hsp_hseq>
+      <Hsp_midline>IG G+ G V   I+  ++ + A+K +    EE     + +EI IL++ V  P +VK H  + +   + +++E+ D GS+       +    E Q+A +  QI+ GL YLHS  I+HRDIK  N+L+N     K+ADFGVS IL  T     + VG+  +MSPE I+       YD  A DIWSLG++ +E    + P     PV        ++  I   Q P  E P   SPEF  FIS CL +E  KR SA+ LL HPFI +    SQ    + + Q +P  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>sp|Q802A6.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase 3/4; AltName: Full=STE20-like kinase MST1/2; Short=sMST1/2; Contains: RecName: Full=Serine/threonine-protein kinase 3/4 37kDa subunit; Contains: RecName: Full=Serine/threonine-protein kinase 3/4 18kDa subunit [Squalus acanthias]</Hit_def>
+  <Hit_accession>Q802A6</Hit_accession>
+  <Hit_len>491</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>2.1398e-39</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>RIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGA-----HVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGY--AGDIWSLGVSILEFYLGRFPFPVSRQGDWASL--MCAICM--SQPP---EAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASP</Hsp_qseq>
+      <Hsp_hseq>KLGEGSYGSVFKAIHKESGQVVAIKQVPV---ESDLQEIIKEISIMQQCDSPHVVKYYGSYFKNTDLWIVMEYCGAGSVSDLIRIRNKTLTEDEIATILQSTLKGLEYLHFMRKIHRDIKAGNILLNNEGHAKLADFGVAGQLTDTMAKRNTVIGTPFWMAPEVI-------QEIGYNCVADIWSLGISAIEMAEGKPPY--------ADIHPMRAIFMIPTNPPPTFRKPELWTDEFTDFVKQCLVKNPEQRAAATQLLQHPFIKNAKP</Hsp_hseq>
+      <Hsp_midline>++G G+ G+V+K IH+ S ++ A+K +     E+  ++I +EI I++  + P+VVK +  + +N ++ +++E+   GS+            E ++A + +  L GL YLH    +HRDIK  N+L+N+  + K+ADFGV+  L  TM   N+ +GT  +M+PE I       +  GY    DIWSLG+S +E   G+ P+        A +  M AI M  + PP     P   + EF  F+  CL + P +R +A QLLQHPFI  A P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>sp|P32491.2|</Hit_id>
+  <Hit_def>RecName: Full=MAP kinase kinase MKK2/SSP33 [Saccharomyces cerevisiae S288C]</Hit_def>
+  <Hit_accession>P32491</Hit_accession>
+  <Hit_len>506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>2.96552e-39</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>220</Hsp_hit-from>
+      <Hsp_hit-to>482</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>IGSGAGGTVYKVIHRPSSRLYALKVIYG-NHEETVRRQICREIEILRDVNHPNVVKCHEMF--DQNGEIQVLLEFMDKGSLEGAHV--------WKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPF---PVSRQGDWASLMCAICMSQP-----PEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFIL</Hsp_qseq>
+      <Hsp_hseq>LGEGAGGSVAKCRLKNGKKVFALKTINTMNTDPEYQKQIFRELQFNKSFKSDYIVQYYGMFTDEQSSSIYIAMEYMGGKSLEATYKNLLKRGGRISERVIGKIAESVLRGLSYLHERKVIHRDIKPQNILLNEKGEIKLCDFGVSGEAVNSL--AMTFTGTSFYMAPERI-----QGQPYSVTCDVWSLGLTLLEVAGGRFPFESDKITQNVAPIELLTMILTFSPQLKDEPELDISWSKTFRSFIDYCLKKDARERPSPRQMLKHPWIV</Hsp_hseq>
+      <Hsp_midline>+G GAGG+V K   +   +++ALK I   N +   ++QI RE++  +      +V+ + MF  +Q+  I + +E+M   SLE  +           E+ +  ++  +L GL+YLH R ++HRDIKP N+L+N    +K+ DFGVS     ++    +  GT  YM+PERI     QG+      D+WSLG+++LE   GRFPF    +++      L+  I    P     PE   + S  FR FI  CL+++  +R S  Q+L+HP+I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>sp|B7ZR30.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase 10-A; AltName: Full=Polo-like kinase kinase 1; Short=XPlkk1 [Xenopus laevis]</Hit_def>
+  <Hit_accession>B7ZR30</Hit_accession>
+  <Hit_len>950</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.754</Hsp_bit-score>
+      <Hsp_score>382</Hsp_score>
+      <Hsp_evalue>3.26687e-39</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>IGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEF-----MDKGSLEGAHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTD-LNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATA--SPEFRHFISCCLQREPGKRRSAMQLLQHPFILRAS</Hsp_qseq>
+      <Hsp_hseq>LGDGAFGKVYKAKNRETGILAAAKVIETKNEEELEDYMV-EIEILATCNHHFIVKLLGAFYWEGKLWIMIEFCPGGAVDAVMLELDRGLKEPEIKTICRQMLEALAYLHSMKIIHRDLKAGNVLLTLDGDIKLADFGVSAKNVKTLQRRDSFIGTPYWMAPEVVMCETMKDAPYD-YKADIWSLGITLIE--MAQIE-PPHHELNPMRVLLKIAKSEPPTLSSLSKWSPEFHSFLKTALDKNPETRPSAAQLLEHPFVKKAS</Hsp_hseq>
+      <Hsp_midline>+G GA G VYK  +R +  L A KVI   +EE +   +  EIEIL   NH  +VK    F   G++ +++EF     +D   LE     KE ++  + RQ+L  LAYLHS  I+HRD+K  N+L+    ++K+ADFGVS    +T+   +S +GT  +M+PE +  + +    YD Y  DIWSLG++++E  + +   P   + +   ++  I  S+PP   + +  SPEF  F+   L + P  R SA QLL+HPF+ +AS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>sp|P46734.2|</Hit_id>
+  <Hit_def>RecName: Full=Dual specificity mitogen-activated protein kinase kinase 3; Short=MAP kinase kinase 3; Short=MAPKK 3; AltName: Full=MAPK/ERK kinase 3; Short=MEK 3; AltName: Full=Stress-activated protein kinase kinase 2; Short=SAPK kinase 2; Short=SAPKK-2; Short=SAPKK2 [Homo sapiens]</Hit_def>
+  <Hit_accession>P46734</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.591</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>3.29995e-39</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>NTNSSIEAKNYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEI-LRDVNHPNVVKCHEMFDQNGEIQVLLEFMD-------KGSLEGAHVWKEQQLADLSRQILSGLAYLHSR-HIVHRDIKPSNLLINSAKNVKIADFGVSRIL----AQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWAS---LMCAICMSQPPEAPAT-ASPEFRHFISCCLQREPGKRRSAMQLLQHPFI</Hsp_qseq>
+      <Hsp_hseq>DRNFEVEA---DDLVTISELGRGAYGVVEKVRHAQSGTIMAVKRIRATVNSQEQKRLLMDLDINMRTVDCFYTVTFYGALFREGDVWICMELMDTSLDKFYRKVLDKNMTIPEDILGEIAVSIVRALEHLHSKLSVIHRDVKPSNVLINKEGHVKMCDFGISGYLVDSVAKTMD-----AGCKPYMAPERINPELNQKGYN-VKSDVWSLGITMIEMAILRFPYE-----SWGTPFQQLKQVVEEPSPQLPADRFSPEFVDFTAQCLRKNPAERMSYLELMEHPFF</Hsp_hseq>
+      <Hsp_midline>+ N  +EA    DLV  + +G GA G V KV H  S  + A+K I        ++++  +++I +R V+    V  +    + G++ + +E MD       +  L+      E  L +++  I+  L +LHS+  ++HRD+KPSN+LIN   +VK+ DFG+S  L    A+TMD      G   YM+PERIN +LNQ  Y+    D+WSLG++++E  + RFP+       W +    +  +     P+ PA   SPEF  F + CL++ P +R S ++L++HPF </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>sp|A8XJW8.2|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase cst-1; Contains: RecName: Full=Serine/threonine-protein kinase cst-1 37kDa subunit; Contains: RecName: Full=Serine/threonine-protein kinase cst-1 18kDa subunit [Caenorhabditis briggsae]</Hit_def>
+  <Hit_accession>A8XJW8</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>4.07675e-39</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>LPPTSGGSGGSSGSAPSSGGSASSTNTNSSIEAKNYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWK-----EQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICM--SQPP---EAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRA</Hsp_qseq>
+      <Hsp_hseq>MPPSTDSSRRNSEEGFSDGFKLDSSALNKPPE--EVFDIV--GKLGEGSYGSVHKAIHKESGHVLAIKKV---PVDTDLQEIIKEISIMQQCKSKYVVKYYGSYFKNSDLWIVMEYCGAGSISDIMRARRKPLSEKEISAVLRDTLKGLQYLHDLKKIHRDIKAGNILLNTDGIAKLADFGVAGQLTDTMAKRNTVIGTPFWMAPEVI----EEIGYDTKA-DIWSLGITAIEMAEGRPPYSDIHP------MRAIFMIPTKPPPTFKKPEEWSSEFNDFIRCCLIKKPEERKTALRLCEHTFIENA</Hsp_hseq>
+      <Hsp_midline>+PP++  S  +S    S G    S+  N   E     D+V   ++G G+ G+V+K IH+ S  + A+K +     +T  ++I +EI I++      VVK +  + +N ++ +++E+   GS+      +     E++++ + R  L GL YLH    +HRDIK  N+L+N+    K+ADFGV+  L  TM   N+ +GT  +M+PE I     +  YD  A DIWSLG++ +E   GR P+           M AI M  ++PP   + P   S EF  FI CCL ++P +R++A++L +H FI  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>sp|O14305.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase sid1; AltName: Full=STE20-like kinase sid1 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O14305</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.902</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>4.25718e-39</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>345</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>279</Hsp_align-len>
+      <Hsp_qseq>IEAKNYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVW---KEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAK-NVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASPSQNRSP</Hsp_qseq>
+      <Hsp_hseq>LNANSYT-LLR--KLGSGSFGVVWKARENVSGDIIAIKQIDLETGIDDITDIEQEVFMLSNCNSSNVIQYYGCFVDGYTLWILMEHMDGGSVSGLLKMGRLNEQVISIILREVLYGLNYLHGQNKIHRDIKAANILLSSSTGNVKLADFGVAAQLSNAASRRHTFVGTPFWMAPEVIQ----QTSY-GLAADIWSLGITAIEMANGIPPRATMHP---MRVIFEIPQSEPPKLDDHFSPTFRDFVSCCLDLNPNMRWSAKELLQHPFIKSAGTVKDIIP</Hsp_hseq>
+      <Hsp_midline>+ A +Y+ L+R  ++GSG+ G V+K     S  + A+K I           I +E+ +L + N  NV++ +  F     + +L+E MD GS+ G        EQ ++ + R++L GL YLH ++ +HRDIK +N+L++S+  NVK+ADFGV+  L+      ++ VGT  +M+PE I     Q  Y G A DIWSLG++ +E   G  P           ++  I  S+PP+     SP FR F+SCCL   P  R SA +LLQHPFI  A   ++  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>sp|P06784.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase STE7 [Saccharomyces cerevisiae S288C]</Hit_def>
+  <Hit_accession>P06784</Hit_accession>
+  <Hit_len>515</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>5.23912e-39</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>342</Hsp_query-to>
+      <Hsp_hit-from>169</Hsp_hit-from>
+      <Hsp_hit-to>475</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>GSASSTNTNSSIEAKNY---SDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVI-YGNHEETVRRQICREIEILRDVN-HPNVVKCH-EMFDQ--NGEIQVLLEFMDKGSLE----------------GAHVW-KEQQLADLSRQILSGLAYLHSRH-IVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQ--GDWASLMCAICMSQPPEAPA--TASPEFRHFIS-CCLQREPGKRRSAMQLLQHPFILR-ASPSQN</Hsp_qseq>
+      <Hsp_hseq>AAADLKDTLSGTSNGNYIQLQDLVQLGKIGAGNSGTVVKALHVPDSKIVAKKTIPVEQNNSTIINQLVRELSIVKNVKPHENIITFYGAYYNQHINNEIIILMEYSDCGSLDKILSVYKRFVQRGTVSSKKTWFNELTISKIAYGVLNGLDHLYRQYKIIHRDIKPSNVLINSKGQIKLCDFGVSKKLINSI--ADTFVGTSTYMSPERI-----QGNVYSIKGDVWSLGLMIIELVTGEFPLGGHNDTPDGILDLLQRIVNEPSPRLPKDRIYSKEMTDFVNRCCIKNER-ERSSIHELLHHDLIMKYVSPSKD</Hsp_hseq>
+      <Hsp_midline> +A   +T S     NY    DLV+  +IG+G  GTV K +H P S++ A K I    +  T+  Q+ RE+ I+++V  H N++  +   ++Q  N EI +L+E+ D GSL+                    W  E  ++ ++  +L+GL +L+ ++ I+HRDIKPSN+LINS   +K+ DFGVS+ L  ++   ++ VGT  YMSPERI     QG      GD+WSLG+ I+E   G FP             L+  I     P  P     S E   F++ CC++ E  +R S  +LL H  I++  SPS++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>sp|Q9Y6R4.2|</Hit_id>
+  <Hit_def>RecName: Full=Mitogen-activated protein kinase kinase kinase 4; AltName: Full=MAP three kinase 1; AltName: Full=MAPK/ERK kinase kinase 4; Short=MEK kinase 4; Short=MEKK 4 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9Y6R4</Hit_accession>
+  <Hit_len>1608</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>6.86784e-39</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>1345</Hsp_hit-from>
+      <Hsp_hit-to>1601</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>RGNRIGSGAGGTVYKVIHRPSSRLYALKVI-YGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVW--KEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRIL---AQTM-DPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFI</Hsp_qseq>
+      <Hsp_hseq>RGNKIGEGQYGKVYTCISVDTGELMAMKEIRFQPNDHKTIKETADELKIFEGIKHPNLVRYFGVELHREEMYIFMEYCDEGTLEEVSRLGLQEHVIRLYSKQITIAINVLHEHGIVHRDIKGANIFLTSSGLIKLGDFGCSVKLKNNAQTMPGEVNSTLGTAAYMAPEVITRAKGEGH--GRAADIWSLGCVVIEMVTGKRPWHEYEHN--FQIMYKVGMGHKPPIPERLSPEGKDFLSHCLESDPKMRWTASQLLDHSFV</Hsp_hseq>
+      <Hsp_midline>RGN+IG G  G VY  I   +  L A+K I +  ++    ++   E++I   + HPN+V+   +     E+ + +E+ D+G+LE       +E  +   S+QI   +  LH   IVHRDIK +N+ + S+  +K+ DFG S  L   AQTM    NS++GT AYM+PE I     +G   G A DIWSLG  ++E   G+ P+          +M  + M   P  P   SPE + F+S CL+ +P  R +A QLL H F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>sp|O22040.2|</Hit_id>
+  <Hit_def>RecName: Full=Mitogen-activated protein kinase kinase kinase ANP1; AltName: Full=Arabidopsis NPK1-related kinase 1 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>O22040</Hit_accession>
+  <Hit_len>666</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>7.45136e-39</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>332</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>RGNRIGSGAGGTVYKVIHRPSSRLYALKVI-----YGNHEETVR--RQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGS----LEGAHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQ--TMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFIL</Hsp_qseq>
+      <Hsp_hseq>KGQLIGRGAFGTVYMGMNLDSGELLAVKQVLIAANFASKEKTQAHIQELEEEVKLLKNLSHPNIVRYLGTVREDDTLNILLEFVPGGSISSLLEKFGPFPESVVRTYTRQLLLGLEYLHNHAIMHRDIKGANILVDNKGCIKLADFGASKQVAELATMTGAKSMKGTPYWMAPEVI---LQTGH--SFSADIWSVGCTVIEMVTGKAPWSQQYKEVAAIFFIGTTKSHPP-IPDTLSSDAKDFLLKCLQEVPNLRPTASELLKHPFVM</Hsp_hseq>
+      <Hsp_midline>+G  IG GA GTVY  ++  S  L A+K +     + + E+T    +++  E+++L++++HPN+V+      ++  + +LLEF+  GS    LE    + E  +   +RQ+L GL YLH+  I+HRDIK +N+L+++   +K+ADFG S+ +A+  TM    S  GT  +M+PE I   L  G    ++ DIWS+G +++E   G+ P+    +   A        S PP  P T S + + F+  CLQ  P  R +A +LL+HPF++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>sp|Q7ZUQ3.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase 3; Contains: RecName: Full=Serine/threonine-protein kinase 3 36kDa subunit; Short=MST2/N; Contains: RecName: Full=Serine/threonine-protein kinase 3 20kDa subunit; Short=MST2/C [Danio rerio]</Hit_def>
+  <Hit_accession>Q7ZUQ3</Hit_accession>
+  <Hit_len>492</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>7.52055e-39</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>RIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGA-----HVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGY--AGDIWSLGVSILEFYLGRFPFPVSRQGDWASL--MCAICM--SQPP---EAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASP</Hsp_qseq>
+      <Hsp_hseq>KLGEGSYGSVFKAIHKESGQVVAIKQV---PVESDLQEIIKEISIMQQCDSPYVVKYYGSYFKNTDLWIVMEYCGAGSVSDIIRLRNKTLTEDEIATVLKSTLKGLEYLHFMRKIHRDIKAGNILLNTEGHAKLADFGVAGQLTDTMAKRNTVIGTPFWMAPEVI-------QEIGYNCVADIWSLGITSIEMAEGKPPY--------ADIHPMRAIFMIPTNPPPTFRKPEHWSDDFTDFVKKCLVKNPEQRATATQLLQHPFIVGAKP</Hsp_hseq>
+      <Hsp_midline>++G G+ G+V+K IH+ S ++ A+K +     E+  ++I +EI I++  + P VVK +  + +N ++ +++E+   GS+            E ++A + +  L GL YLH    +HRDIK  N+L+N+  + K+ADFGV+  L  TM   N+ +GT  +M+PE I       +  GY    DIWSLG++ +E   G+ P+        A +  M AI M  + PP     P   S +F  F+  CL + P +R +A QLLQHPFI+ A P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>sp|Q9JI10.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase 3; AltName: Full=Mammalian STE20-like protein kinase 2; Short=MST-2; AltName: Full=STE20-like kinase MST2; Contains: RecName: Full=Serine/threonine-protein kinase 3 36kDa subunit; Short=MST2/N; Contains: RecName: Full=Serine/threonine-protein kinase 3 20kDa subunit; Short=MST2/C [Mus musculus]</Hit_def>
+  <Hit_accession>Q9JI10</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>8.32627e-39</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>RIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGA-----HVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGY--AGDIWSLGVSILEFYLGRFPFPVSRQGDWASL--MCAICM--SQPP---EAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASP</Hsp_qseq>
+      <Hsp_hseq>KLGEGSYGSVFKAIHKESGQVVAIKQV---PVESDLQEIIKEISIMQQCDSPYVVKYYGSYFKNTDLWIVMEYCGAGSVSDIIRLRNKTLTEDEIATILKSTLKGLEYLHFMRKIHRDIKAGNILLNTEGHAKLADFGVAGQLTDTMAKRNTVIGTPFWMAPEVIQE-------IGYNCVADIWSLGITSIEMAEGKPPY--------ADIHPMRAIFMIPTNPPPTFRKPELWSDDFTDFVKKCLVKSPEQRATATQLLQHPFIKNAKP</Hsp_hseq>
+      <Hsp_midline>++G G+ G+V+K IH+ S ++ A+K +     E+  ++I +EI I++  + P VVK +  + +N ++ +++E+   GS+            E ++A + +  L GL YLH    +HRDIK  N+L+N+  + K+ADFGV+  L  TM   N+ +GT  +M+PE I          GY    DIWSLG++ +E   G+ P+        A +  M AI M  + PP     P   S +F  F+  CL + P +R +A QLLQHPFI  A P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>sp|O54748.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase 3; AltName: Full=Mammalian STE20-like protein kinase 2; Short=MST-2; AltName: Full=STE20-like kinase MST2; Contains: RecName: Full=Serine/threonine-protein kinase 3 36kDa subunit; Short=MST2/N; Contains: RecName: Full=Serine/threonine-protein kinase 3 20kDa subunit; Short=MST2/C [Rattus norvegicus]</Hit_def>
+  <Hit_accession>O54748</Hit_accession>
+  <Hit_len>491</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>9.27288e-39</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>RIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGA-----HVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGY--AGDIWSLGVSILEFYLGRFPFPVSRQGDWASL--MCAICM--SQPP---EAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASP</Hsp_qseq>
+      <Hsp_hseq>KLGEGSYGSVFKAIHKESGQVVAIKQV---PVESDVQEIIKEISIMQQCDSPYVVKYYGSYFKNTDLWIVMEYCGAGSVSDIIRLRNKTLTEDEIATILKSTLKGLEYLHFMRKIHRDIKAGNILLNTEGHAKLADFGVAGQLTDTMAKRNTVIGTPFWMAPEVI-------QEIGYNCVADIWSLGITSIEMAEGKPPY--------ADIHPMRAIFMIPTNPPPTFRKPELWSDDFTDFVKKCLVKSPEQRATATQLLQHPFIKNAKP</Hsp_hseq>
+      <Hsp_midline>++G G+ G+V+K IH+ S ++ A+K +     E+  ++I +EI I++  + P VVK +  + +N ++ +++E+   GS+            E ++A + +  L GL YLH    +HRDIK  N+L+N+  + K+ADFGV+  L  TM   N+ +GT  +M+PE I       +  GY    DIWSLG++ +E   G+ P+        A +  M AI M  + PP     P   S +F  F+  CL + P +R +A QLLQHPFI  A P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>sp|F1NBT0.2|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase 10 [Gallus gallus]</Hit_def>
+  <Hit_accession>F1NBT0</Hit_accession>
+  <Hit_len>969</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>1.15831e-38</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>348</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>IGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEF-----MDKGSLEGAHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTD-LNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPP--EAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASPSQNRSPQNL</Hsp_qseq>
+      <Hsp_hseq>LGDGAFGKVYKAKNKETGALAAAKVIETKNEDELEDYMV-EIEILATCDHPHIVKLLGAFYWEGKLWIMIEFCPGGAVDATMLELDRGLTEPQIQVICRQMLEALHYLHSKKIIHRDLKAGNVLLTQDGDIKLADFGVSAKNVKTLQKRDSFIGTPYWMAPEVVMCETMKDTPYD-YKADIWSLGITLIEMAQIE---PPHHELNPMRVLLKIAKSDPPTLSCPSKWSLEFRDFLKTALDKNPETRPSAAQLLEHPFVSKVTS--NRALREL</Hsp_hseq>
+      <Hsp_midline>+G GA G VYK  ++ +  L A KVI   +E+ +   +  EIEIL   +HP++VK    F   G++ +++EF     +D   LE      E Q+  + RQ+L  L YLHS+ I+HRD+K  N+L+    ++K+ADFGVS    +T+   +S +GT  +M+PE +  + +    YD Y  DIWSLG++++E        P   + +   ++  I  S PP    P+  S EFR F+   L + P  R SA QLL+HPF+ + +   NR+ + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>sp|Q13188.2|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase 3; AltName: Full=Mammalian STE20-like protein kinase 2; Short=MST-2; AltName: Full=STE20-like kinase MST2; AltName: Full=Serine/threonine-protein kinase Krs-1; Contains: RecName: Full=Serine/threonine-protein kinase 3 36kDa subunit; Short=MST2/N; Contains: RecName: Full=Serine/threonine-protein kinase 3 20kDa subunit; Short=MST2/C [Homo sapiens]</Hit_def>
+  <Hit_accession>Q13188</Hit_accession>
+  <Hit_len>491</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>1.52638e-38</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>RIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGA-----HVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGY--AGDIWSLGVSILEFYLGRFPFPVSRQGDWASL--MCAICM--SQPP---EAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASP</Hsp_qseq>
+      <Hsp_hseq>KLGEGSYGSVFKAIHKESGQVVAIKQV---PVESDLQEIIKEISIMQQCDSPYVVKYYGSYFKNTDLWIVMEYCGAGSVSDIIRLRNKTLIEDEIATILKSTLKGLEYLHFMRKIHRDIKAGNILLNTEGHAKLADFGVAGQLTDTMAKRNTVIGTPFWMAPEVI-------QEIGYNCVADIWSLGITSIEMAEGKPPY--------ADIHPMRAIFMIPTNPPPTFRKPELWSDDFTDFVKKCLVKNPEQRATATQLLQHPFIKNAKP</Hsp_hseq>
+      <Hsp_midline>++G G+ G+V+K IH+ S ++ A+K +     E+  ++I +EI I++  + P VVK +  + +N ++ +++E+   GS+            E ++A + +  L GL YLH    +HRDIK  N+L+N+  + K+ADFGV+  L  TM   N+ +GT  +M+PE I       +  GY    DIWSLG++ +E   G+ P+        A +  M AI M  + PP     P   S +F  F+  CL + P +R +A QLLQHPFI  A P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>sp|O08648.2|</Hit_id>
+  <Hit_def>RecName: Full=Mitogen-activated protein kinase kinase kinase 4; AltName: Full=MAPK/ERK kinase kinase 4; Short=MEK kinase 4; Short=MEKK 4 [Mus musculus]</Hit_def>
+  <Hit_accession>O08648</Hit_accession>
+  <Hit_len>1597</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>1.62498e-38</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>1334</Hsp_hit-from>
+      <Hsp_hit-to>1590</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>RGNRIGSGAGGTVYKVIHRPSSRLYALKVI-YGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVW--KEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRIL---AQTM-DPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFI</Hsp_qseq>
+      <Hsp_hseq>RGNKIGEGQYGKVYTCISVDTGELMAMKEIRFQPNDHKTIKETADELKIFEGIKHPNLVRYFGVELHREEMYIFMEYCDEGTLEEVSRLGLQEHVIRLYTKQITVAINVLHEHGIVHRDIKGANIFLTSSGLIKLGDFGCSVKLKNNAQTMPGEVNSTLGTAAYMAPEVITR--AKGEGHGRAADIWSLGCVVIEMVTGKRPWHEYEHN--FQIMYKVGMGHKPPIPERLSPEGKAFLSHCLESDPKIRWTASQLLDHAFV</Hsp_hseq>
+      <Hsp_midline>RGN+IG G  G VY  I   +  L A+K I +  ++    ++   E++I   + HPN+V+   +     E+ + +E+ D+G+LE       +E  +   ++QI   +  LH   IVHRDIK +N+ + S+  +K+ DFG S  L   AQTM    NS++GT AYM+PE I     +G+  G A DIWSLG  ++E   G+ P+          +M  + M   P  P   SPE + F+S CL+ +P  R +A QLL H F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>sp|P10506.1|</Hit_id>
+  <Hit_def>RecName: Full=Protein kinase byr1; AltName: Full=MAPK kinase; Short=MAPKK [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>P10506</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.665</Hsp_bit-score>
+      <Hsp_score>361</Hsp_score>
+      <Hsp_evalue>1.7024e-38</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>NSSIEAKNYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWKE------QQLADLSRQILSGLAYLHS-RHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGD---WASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRA</Hsp_qseq>
+      <Hsp_hseq>NSSLE------VVR--HLGEGNGGAVSLVKHR--NIFMARKTVYVGSDSKLQKQILRELGVLHHCRSPYIVGFYGAFQYKNNISLCMEYMDCGSLDA--ILREGGPIPLDILGKIINSMVKGLIYLYNVLHIIHRDLKPSNVVVNSRGEIKLCDFGVSGELVNSV--AQTFVGTSTYMSPERIRG----GKYT-VKSDIWSLGISIIELATQELPWSFSNIDDSIGILDLLHCIVQEEPPRLPSSFPEDLRLFVDACLHKDPTLRASPQQLCAMPYFQQA</Hsp_hseq>
+      <Hsp_midline>NSS+E      +VR   +G G GG V  V HR  +   A K +Y   +  +++QI RE+ +L     P +V  +  F     I + +E+MD GSL+   + +E        L  +   ++ GL YL++  HI+HRD+KPSN+++NS   +K+ DFGVS  L  ++    + VGT  YMSPERI      GKY     DIWSLG+SI+E      P+  S   D      L+  I   +PP  P++   + R F+  CL ++P  R S  QL   P+  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>sp|Q10664.1|</Hit_id>
+  <Hit_def>RecName: Full=Dual specificity mitogen-activated protein kinase kinase mek-2; Short=MAP kinase kinase mek-2 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q10664</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.436</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>2.04087e-38</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>RIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWK------EQQLADLSRQILSGLAYLHSR-HIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLM--------CAICMSQ----PPEAPATA----------------------SPEFRHFISCCLQREPGKRRSAMQLLQHPFI</Hsp_qseq>
+      <Hsp_hseq>ELGHGNGGVVNKCVHRKTGVIMARKLVHLEIKPSVRQQIVKELAVLHKCNSPFIVGFYGAFVDNNDISICMEYMDGLSLD--IVLKKVGRLPEKFVGRISVAVVRGLTYLKDEIKILHRDVKPSNMLVNSNGEIKLCDFGVSGMLIDSM--ANSFVGTRSYMAPERLT-----GSHYTISSDIWSFGLSLVELLIGRYPVPAPSQAEYATMFNVAENEIELADSLEEPNYHPPSNPASMAIFEMLDYIVNGPPPTLPKRFFTDEVIGFVSKCLRKLPSERATLKSLTADVFF</Hsp_hseq>
+      <Hsp_midline> +G G GG V K +HR +  + A K+++   + +VR+QI +E+ +L   N P +V  +  F  N +I + +E+MD  SL+   V K      E+ +  +S  ++ GL YL     I+HRD+KPSN+L+NS   +K+ DFGVS +L  +M   NS VGT +YM+PER+      G +   + DIWS G+S++E  +GR+P P   Q ++A++          A  + +    PP  PA+                       + E   F+S CL++ P +R +   L    F </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>sp|Q0IHQ8.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase 10 [Xenopus tropicalis]</Hit_def>
+  <Hit_accession>Q0IHQ8</Hit_accession>
+  <Hit_len>951</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>2.08344e-38</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>IGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEF-----MDKGSLEGAHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTD-LNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPP--EAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRAS</Hsp_qseq>
+      <Hsp_hseq>LGDGAFGKVYKAKNKETGILAAAKVIETKNEEELEDYMV-EIEILATCNHHFIVKLLGSYYWEGKLWIMIEFCPGGAVDAIMLELDRGLKEPEIRTICRQMLEGLTYLHSMKMIHRDLKAGNVLLTLDGDIKLADFGVSAKNVKTLQRRDSFIGTPYWMAPEVVMCETMKDAPYD-YKADIWSLGITLIE--MAQIE-PPHHELNPMRVLLKIAKSEPPTLSSPSKWSPEFHNFLKTALDKNPETRPSAAQLLEHPFVKKVS</Hsp_hseq>
+      <Hsp_midline>+G GA G VYK  ++ +  L A KVI   +EE +   +  EIEIL   NH  +VK    +   G++ +++EF     +D   LE     KE ++  + RQ+L GL YLHS  ++HRD+K  N+L+    ++K+ADFGVS    +T+   +S +GT  +M+PE +  + +    YD Y  DIWSLG++++E  + +   P   + +   ++  I  S+PP   +P+  SPEF +F+   L + P  R SA QLL+HPF+ + S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>sp|Q869T7.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase pakF [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q869T7</Hit_accession>
+  <Hit_len>1176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>2.52393e-38</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>352</Hsp_query-to>
+      <Hsp_hit-from>391</Hsp_hit-from>
+      <Hsp_hit-to>659</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>YSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEG-----AHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFP---FPVSRQGDWASLMCAICMSQPPE--APATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASPSQNRSPQNLHQLL</Hsp_qseq>
+      <Hsp_hseq>HNDFILDEKLGDGAYGSVYKGTHKDLGFTLAIKVIEMKESESVSLQ--NEINILKNCKSPNIVSYFGSLQTESHIWILLDFCALGSIRDIIESTEKTLNEAQISFVVKNTLKGLIYLHSQNIIHRDVKAANVLLSEGCDVKIADFGVSEKLNGALDQSKEMIGTPLWMAPEVI----LKKNYD-YKADIWSLGITIIEMADGLPPHIDLPPMRA------MKMVPNWPPPTFAEPKKWSPLLNDFLARCLVKDPEKRASPIDLLCHPFL-----KKDRGPDVLSDLV</Hsp_hseq>
+      <Hsp_midline>++D +   ++G GA G+VYK  H+      A+KVI     E+V  Q   EI IL++   PN+V           I +LL+F   GS+            E Q++ + +  L GL YLHS++I+HRD+K +N+L++   +VKIADFGVS  L   +D     +GT  +M+PE I     +  YD Y  DIWSLG++I+E   G  P    P  R       M  +    PP    P   SP    F++ CL ++P KR S + LL HPF+      ++R P  L  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>sp|O64629.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase Aurora-3; Short=AtAur3; AltName: Full=Aurora-like kinase 3 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>O64629</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.739</Hsp_bit-score>
+      <Hsp_score>356</Hsp_score>
+      <Hsp_evalue>2.58527e-38</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>SASSTNTNSSIEAKNYS--DLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEET--VRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGA-----HVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILR</Hsp_qseq>
+      <Hsp_hseq>SKKSTESDAGNTEKQWSLADFEIGRPLGKGKFGRVYLAREAKSKYIVALKVIFKEQIEKYKIHHQLRREMEIQTSLRHPNILRLFGWFHDNERIFLILEYAHGGELYGVLKQNGHL-TEQQAATYIASLSQALAYCHGKCVIHRDIKPENLLLDHEGRLKIADFGWS---VQSSNKRKTMCGTLDYLAPEMV-----ENRDHDYAVDNWTLGILCYEFLYGNPPFEAESQKDTFKRILKIDLSFP--LTPNVSEEAKNLISQLLVKDPSKRLSIEKIMQHPWIVK</Hsp_hseq>
+      <Hsp_midline>S  ST +++    K +S  D   G  +G G  G VY      S  + ALKVI+    E   +  Q+ RE+EI   + HPN+++    F  N  I ++LE+   G L G      H+  EQQ A     +   LAY H + ++HRDIKP NLL++    +KIADFG S    Q+ +   +  GT+ Y++PE +     + +   YA D W+LG+   EF  G  PF    Q D    +  I +S P       S E ++ IS  L ++P KR S  +++QHP+I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>sp|Q9NB31.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase cst-1; AltName: Full=STE20-like kinase 1; AltName: Full=STE20-like kinase MST; AltName: Full=cMST; Contains: RecName: Full=Serine/threonine-protein kinase cst-1 37kDa subunit; Contains: RecName: Full=Serine/threonine-protein kinase cst-1 18kDa subunit [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q9NB31</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>2.87461e-38</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>LPPTSGGSGGSSGSAPSSGGSASSTNTNSSIEAKNYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWK-----EQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICM--SQPP---EAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRA</Hsp_qseq>
+      <Hsp_hseq>MPPSTDSSRRNSEEGSSDGFKLDSSALNKPPE--EVFDIV--GKLGEGSYGSVHKAIHRESGHVLAIKKV---PVDTDLQEIIKEISIMQQCKSKYVVKYYGSYFKHSDLWIVMEYCGAGSISDIMRARRKPLSEQEISAVLRDTLKGLQYLHDLKKIHRDIKAGNILLNTDGIAKLADFGVAGQLTDTMAKRNTVIGTPFWMAPEVI----EEIGYDTKA-DIWSLGITAIEMAEGRPPYSDIHP------MRAIFMIPTKPPPTFKKPEEWSSEFNDFIRSCLIKKPEERKTALRLCEHTFIKNA</Hsp_hseq>
+      <Hsp_midline>+PP++  S  +S    S G    S+  N   E     D+V   ++G G+ G+V+K IHR S  + A+K +     +T  ++I +EI I++      VVK +  + ++ ++ +++E+   GS+      +     EQ+++ + R  L GL YLH    +HRDIK  N+L+N+    K+ADFGV+  L  TM   N+ +GT  +M+PE I     +  YD  A DIWSLG++ +E   GR P+           M AI M  ++PP   + P   S EF  FI  CL ++P +R++A++L +H FI  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>sp|Q6P3Q4.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase 4; Contains: RecName: Full=Serine/threonine-protein kinase 4 37kDa subunit; Short=MST1/N; Contains: RecName: Full=Serine/threonine-protein kinase 4 18kDa subunit; Short=MST1/C [Xenopus tropicalis]</Hit_def>
+  <Hit_accession>Q6P3Q4</Hit_accession>
+  <Hit_len>485</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.591</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>3.35791e-38</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>RIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEG-----AHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGY--AGDIWSLGVSILEFYLGRFPFPVSRQGDWASL--MCAICM--SQPP---EAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRA</Hsp_qseq>
+      <Hsp_hseq>KLGEGSYGSVYKASHKETSQIVAIKQI---PVESDLQEIIKEIAIMQQCDSLHVVKYYGSYFKNTDLWIVMEFCGGGSISDIIRLRKQTLKEDETATILQSTLKGLEYLHFMRKIHRDIKAGNILLNSEGTAKLADFGVAGQLTDTMAKRNTVIGTPFWMAPEVI-------QEIGYNCVADIWSLGITAIEMAEGKPPY--------AEIHPMRAIFMIPSNPPPTFRKPELWSKDFVDFINLCLVKNPELRSSATELLQHPFIKTA</Hsp_hseq>
+      <Hsp_midline>++G G+ G+VYK  H+ +S++ A+K I     E+  ++I +EI I++  +  +VVK +  + +N ++ +++EF   GS+           KE + A + +  L GL YLH    +HRDIK  N+L+NS    K+ADFGV+  L  TM   N+ +GT  +M+PE I       +  GY    DIWSLG++ +E   G+ P+        A +  M AI M  S PP     P   S +F  FI+ CL + P  R SA +LLQHPFI  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>sp|Q6IP06.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase 3; Contains: RecName: Full=Serine/threonine-protein kinase 3 36kDa subunit; Short=MST2/N; Contains: RecName: Full=Serine/threonine-protein kinase 3 20kDa subunit; Short=MST2/C [Xenopus laevis]</Hit_def>
+  <Hit_accession>Q6IP06</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.591</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>4.03933e-38</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>RIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGA-----HVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGY--AGDIWSLGVSILEFYLGRFPFPVSRQGDWASL--MCAICM--SQPP---EAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASP</Hsp_qseq>
+      <Hsp_hseq>KLGEGSYGSVFKAIHKESGQVVAIKQV---PVESDLQEIIKEISIMQQCDSHYVVKYYGSYFKNTDLWIVMEYCGAGSVSDIIRLRNKTLTEDEIATILRSTLKGLEYLHFMRKIHRDIKAGNILLNTEGHAKLADFGVAGQLTDTMAKRNTVIGTPFWMAPEVI-------QEIGYNCVADIWSLGITSIEMAEGKPPY--------ADIHPMRAIFMIPTNPPPTFRKPELWTDEFTDFVKKCLVKNPEQRATATQLLQHPFIKNAKP</Hsp_hseq>
+      <Hsp_midline>++G G+ G+V+K IH+ S ++ A+K +     E+  ++I +EI I++  +   VVK +  + +N ++ +++E+   GS+            E ++A + R  L GL YLH    +HRDIK  N+L+N+  + K+ADFGV+  L  TM   N+ +GT  +M+PE I       +  GY    DIWSLG++ +E   G+ P+        A +  M AI M  + PP     P   + EF  F+  CL + P +R +A QLLQHPFI  A P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>sp|A9SY39.2|</Hit_id>
+  <Hit_def>RecName: Full=Mitogen-activated protein kinase kinase kinase 1a; Short=PpMEKK1a; AltName: Full=MAP kinase kinase kinase 1a [Physcomitrium patens]</Hit_def>
+  <Hit_accession>A9SY39</Hit_accession>
+  <Hit_len>759</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>4.71189e-38</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>423</Hsp_hit-from>
+      <Hsp_hit-to>679</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>YSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQ----ICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWKE-----QQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFI</Hsp_qseq>
+      <Hsp_hseq>WDTWAKGEFLGSGTFGSVYEGVAR-NGTFFAVKEVNLADEGKLGRQAVKQLEREIALLSDIQHPNIVQYLGTERTEDKLYIFLELLNKGSL--ANLYRKYGLFYEQIKAYTEQILTGLKYLHDRKIIHRDIKCANILVDTNGVVKLADFGMAKQV-EKFGFAKSFVGSAHWMAPEVVDP---KQQYN-FAADIWSLGCTVLEMATEGPPFG---ELEFIAVFWKIGRGEAPLIPDDLEDELKDFIAQCLQVDASKRPTCDMLLAHPFI</Hsp_hseq>
+      <Hsp_midline>+    +G  +GSG  G+VY+ + R +   +A+K +    E  + RQ    + REI +L D+ HPN+V+         ++ + LE ++KGSL  A+++++     +Q+   + QIL+GL YLH R I+HRDIK +N+L+++   VK+ADFG+++ + +      S VG+  +M+PE ++    + +Y+ +A DIWSLG ++LE      PF    + ++ ++   I   + P  P     E + FI+ CLQ +  KR +   LL HPFI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>sp|O24527.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase 1 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>O24527</Hit_accession>
+  <Hit_len>836</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>5.20347e-38</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>253</Hsp_hit-from>
+      <Hsp_hit-to>505</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>NRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEG-----AHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILR</Hsp_qseq>
+      <Hsp_hseq>NELGKGSYGSVYKARDLKTSEIVAVKVISLTEGEEGYEEIRGEIEMLQQCNHPNVVRYLGSYQGEDYLWIVMEYCGGGSVADLMNVTEEALEEYQIAYICREALKGLAYLHSIYKVHRDIKGGNILLTEQGEVKLGDFGVAAQLTRTMSKRNTFIGTPHWMAPEVI----QENRYDGKV-DVWALGVSAIEMAEG-LPPRSSVHPMRVLFMISIEPAPMLEDKEKWSLVFHDFVAKCLTKEPRLRPTAAEMLKHKFVER</Hsp_hseq>
+      <Hsp_midline>N +G G+ G+VYK     +S + A+KVI     E    +I  EIE+L+  NHPNVV+    +     + +++E+   GS+           +E Q+A + R+ L GLAYLHS + VHRDIK  N+L+     VK+ DFGV+  L +TM   N+ +GT  +M+PE I     + +YDG   D+W+LGVS +E   G  P   S        M +I  +   E     S  F  F++ CL +EP  R +A ++L+H F+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>sp|Q5E9X2.1|</Hit_id>
+  <Hit_def>RecName: Full=Dual specificity mitogen-activated protein kinase kinase 6; Short=MAP kinase kinase 6; Short=MAPKK 6; AltName: Full=MAPK/ERK kinase 6; Short=MEK 6 [Bos taurus]</Hit_def>
+  <Hit_accession>Q5E9X2</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.124</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>5.26863e-38</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>295</Hsp_align-len>
+      <Hsp_qseq>SSGGSASSTNTNSSIEAKNYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEI-LRDVNHPNVVKCHEMFDQNGEIQVLLEFMD-------KGSLEGAHVWKEQQLADLSRQILSGLAYLHSR-HIVHRDIKPSNLLINSAKNVKIADFGVSRIL----AQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWAS---LMCAICMSQPPEAPATA-SPEFRHFISCCLQREPGKRRSAMQLLQHPFI</Hsp_qseq>
+      <Hsp_hseq>DSKACISIGNQNFEVKADDLEPIVE---LGRGAYGVVEKMRHVPSEQIMAVKRIRATVNSQEQKRLLMDLDISMRTVDCPFTVTFYGALFREGDVWICMELMDTSLDKFYKQVIDKGQTIPEDILGKIAVSIVKALEHLHSKLSVIHRDVKPSNVLINALGQVKMCDFGISGYLVDSVAKTID-----AGCKPYMAPERINPELNQKGY-SVKSDIWSLGITMIELAILRFPY-----DSWGTPFQQLKQVVEEPSPQLPADKFSEEFVDFTSQCLKKNSKERPTYPELMQHPFF</Hsp_hseq>
+      <Hsp_midline> S    S  N N  ++A +   +V    +G GA G V K+ H PS ++ A+K I        ++++  +++I +R V+ P  V  +    + G++ + +E MD       K  ++      E  L  ++  I+  L +LHS+  ++HRD+KPSN+LIN+   VK+ DFG+S  L    A+T+D      G   YM+PERIN +LNQ  Y     DIWSLG++++E  + RFP+       W +    +  +     P+ PA   S EF  F S CL++   +R +  +L+QHPF </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>sp|A4K2M3.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase 4; Contains: RecName: Full=Serine/threonine-protein kinase 4 37kDa subunit; Short=MST1/N; Contains: RecName: Full=Serine/threonine-protein kinase 4 18kDa subunit; Short=MST1/C [Papio anubis]</Hit_def>
+  <Hit_accession>A4K2M3</Hit_accession>
+  <Hit_len>487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>5.57173e-38</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>NRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGA-----HVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGY--AGDIWSLGVSILEFYLGRFPFPVSRQGDWASL--MCAICM--SQPP---EAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRAS</Hsp_qseq>
+      <Hsp_hseq>EKLGEGSYGSVYKAIHKETGQIVAIKQV---PVESDLQEIIKEISIMQQCDSPHVVKYYGSYFKNTDLWIVMEYCGAGSVSDIIRLRNKTLTEDEIATILQSTLKGLEYLHFMRKIHRDIKAGNILLNTEGQAKLADFGVAGQLTDTMAKRNTVIGTPFWMAPEVIQE-------IGYNCVADIWSLGITAIEMAEGKPPY--------ADIHPMRAIFMIPTNPPPTFRKPELWSDNFTDFVKQCLVKSPEQRATATQLLQHPFVKSAK</Hsp_hseq>
+      <Hsp_midline> ++G G+ G+VYK IH+ + ++ A+K +     E+  ++I +EI I++  + P+VVK +  + +N ++ +++E+   GS+            E ++A + +  L GL YLH    +HRDIK  N+L+N+    K+ADFGV+  L  TM   N+ +GT  +M+PE I          GY    DIWSLG++ +E   G+ P+        A +  M AI M  + PP     P   S  F  F+  CL + P +R +A QLLQHPF+  A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>sp|A4K2T0.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase 4; Contains: RecName: Full=Serine/threonine-protein kinase 4 37kDa subunit; Short=MST1/N; Contains: RecName: Full=Serine/threonine-protein kinase 4 18kDa subunit; Short=MST1/C [Macaca mulatta]</Hit_def>
+  <Hit_accession>A4K2T0</Hit_accession>
+  <Hit_len>487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>5.62862e-38</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>NRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGA-----HVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGY--AGDIWSLGVSILEFYLGRFPFPVSRQGDWASL--MCAICM--SQPP---EAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRA</Hsp_qseq>
+      <Hsp_hseq>EKLGEGSYGSVYKAIHKETGQIVAIKQV---PVESDLQEIIKEISIMQQCDSPHVVKYYGSYFKNTDLWIVMEYCGAGSVSDIIRLRNKTLTEDEIATILQSTLKGLEYLHFMRKIHRDIKAGNILLNTEGHAKLADFGVAGQLTDTMAKRNTVIGTPFWMAPEVIQE-------IGYNCVADIWSLGITAIEMAEGKPPY--------ADIHPMRAIFMIPTNPPPTFRKPELWSDNFTDFVKQCLVKSPEQRATATQLLQHPFVKSA</Hsp_hseq>
+      <Hsp_midline> ++G G+ G+VYK IH+ + ++ A+K +     E+  ++I +EI I++  + P+VVK +  + +N ++ +++E+   GS+            E ++A + +  L GL YLH    +HRDIK  N+L+N+  + K+ADFGV+  L  TM   N+ +GT  +M+PE I          GY    DIWSLG++ +E   G+ P+        A +  M AI M  + PP     P   S  F  F+  CL + P +R +A QLLQHPF+  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>sp|A4K2Y1.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase 4; Contains: RecName: Full=Serine/threonine-protein kinase 4 37kDa subunit; Short=MST1/N; Contains: RecName: Full=Serine/threonine-protein kinase 4 18kDa subunit; Short=MST1/C [Chlorocebus aethiops]</Hit_def>
+  <Hit_accession>A4K2Y1</Hit_accession>
+  <Hit_len>487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>5.74416e-38</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>NRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGA-----HVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGY--AGDIWSLGVSILEFYLGRFPFPVSRQGDWASL--MCAICM--SQPP---EAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRAS</Hsp_qseq>
+      <Hsp_hseq>EKLGEGSYGSVYKAIHKETGQIVAIKQV---PVESDLQEIIKEISIMQQCDSPHVVKYYGSYFKNTDLWIVMEYCGAGSVSDIIRLRNKTLTEDEIATILQSTLKGLEYLHFMRKIHRDIKAGNILLNTEGHAKLADFGVAGQLTDTMAKRNTVIGTPFWMAPEVIQE-------IGYNCVADIWSLGITAIEMAEGKPPY--------ADIHPMRAIFMIPTNPPPTFRKPELWSDNFTDFVKQCLVKSPEQRATATQLLQHPFVKSAK</Hsp_hseq>
+      <Hsp_midline> ++G G+ G+VYK IH+ + ++ A+K +     E+  ++I +EI I++  + P+VVK +  + +N ++ +++E+   GS+            E ++A + +  L GL YLH    +HRDIK  N+L+N+  + K+ADFGV+  L  TM   N+ +GT  +M+PE I          GY    DIWSLG++ +E   G+ P+        A +  M AI M  + PP     P   S  F  F+  CL + P +R +A QLLQHPF+  A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>sp|Q13043.2|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase 4; AltName: Full=Mammalian STE20-like protein kinase 1; Short=MST-1; AltName: Full=STE20-like kinase MST1; AltName: Full=Serine/threonine-protein kinase Krs-2; Contains: RecName: Full=Serine/threonine-protein kinase 4 37kDa subunit; Short=MST1/N; Contains: RecName: Full=Serine/threonine-protein kinase 4 18kDa subunit; Short=MST1/C [Homo sapiens]</Hit_def>
+  <Hit_accession>Q13043</Hit_accession>
+  <Hit_len>487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>6.10518e-38</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>NRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGA-----HVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGY--AGDIWSLGVSILEFYLGRFPFPVSRQGDWASL--MCAICM--SQPP---EAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRAS</Hsp_qseq>
+      <Hsp_hseq>EKLGEGSYGSVYKAIHKETGQIVAIKQV---PVESDLQEIIKEISIMQQCDSPHVVKYYGSYFKNTDLWIVMEYCGAGSVSDIIRLRNKTLTEDEIATILQSTLKGLEYLHFMRKIHRDIKAGNILLNTEGHAKLADFGVAGQLTDTMAKRNTVIGTPFWMAPEVIQE-------IGYNCVADIWSLGITAIEMAEGKPPY--------ADIHPMRAIFMIPTNPPPTFRKPELWSDNFTDFVKQCLVKSPEQRATATQLLQHPFVRSAK</Hsp_hseq>
+      <Hsp_midline> ++G G+ G+VYK IH+ + ++ A+K +     E+  ++I +EI I++  + P+VVK +  + +N ++ +++E+   GS+            E ++A + +  L GL YLH    +HRDIK  N+L+N+  + K+ADFGV+  L  TM   N+ +GT  +M+PE I          GY    DIWSLG++ +E   G+ P+        A +  M AI M  + PP     P   S  F  F+  CL + P +R +A QLLQHPF+  A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>sp|A4K2Q5.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase 4; Contains: RecName: Full=Serine/threonine-protein kinase 4 37kDa subunit; Short=MST1/N; Contains: RecName: Full=Serine/threonine-protein kinase 4 18kDa subunit; Short=MST1/C [Otolemur garnettii]</Hit_def>
+  <Hit_accession>A4K2Q5</Hit_accession>
+  <Hit_len>487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>6.16752e-38</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>NRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGA-----HVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGY--AGDIWSLGVSILEFYLGRFPFPVSRQGDWASL--MCAICM--SQPP---EAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRAS</Hsp_qseq>
+      <Hsp_hseq>EKLGEGSYGSVYKAIHKETGQIVAIKQV---PVESDLQEIIKEISIMQQCDSPHVVKYYGSYFKNTDLWIVMEYCGAGSVSDIIRLRNKTLTEDEIATILQSTLKGLEYLHFMRKIHRDIKAGNILLNTEGHAKLADFGVAGQLTDTMAKRNTVIGTPFWMAPEVIQE-------IGYNCVADIWSLGITAIEMAEGKPPY--------ADIHPMRAIFMIPTNPPPTFRKPELWSDNFTDFVRQCLVKSPDQRATATQLLQHPFVKSAK</Hsp_hseq>
+      <Hsp_midline> ++G G+ G+VYK IH+ + ++ A+K +     E+  ++I +EI I++  + P+VVK +  + +N ++ +++E+   GS+            E ++A + +  L GL YLH    +HRDIK  N+L+N+  + K+ADFGV+  L  TM   N+ +GT  +M+PE I          GY    DIWSLG++ +E   G+ P+        A +  M AI M  + PP     P   S  F  F+  CL + P +R +A QLLQHPF+  A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>sp|Q5E9L6.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase 4; AltName: Full=Mammalian STE20-like protein kinase 1; Short=MST-1; AltName: Full=STE20-like kinase MST1; Contains: RecName: Full=Serine/threonine-protein kinase 4 37kDa subunit; Short=MST1/N; Contains: RecName: Full=Serine/threonine-protein kinase 4 18kDa subunit; Short=MST1/C [Bos taurus]</Hit_def>
+  <Hit_accession>Q5E9L6</Hit_accession>
+  <Hit_len>487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>6.62204e-38</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>NRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGA-----HVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGY--AGDIWSLGVSILEFYLGRFPFPVSRQGDWASL--MCAICM--SQPP---EAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRA</Hsp_qseq>
+      <Hsp_hseq>EKLGEGSYGSVYKAIHKETGQIVAIKQV---PVESDLQEIIKEISIMQQCDSPHVVKYYGSYFKNTDLWIVMEYCGAGSVSDIIRLRNKTLTEDEIATILQSTLKGLEYLHFMRKIHRDIKAGNILLNTEGHAKLADFGVAGQLTDTMAKRNTVIGTPFWMAPEVIQE-------IGYNCVADIWSLGITAIEMAEGKPPY--------ADIHPMRAIFMIPTNPPPTFRKPELWSDSFMDFVKQCLVKSPEQRATATQLLQHPFVKSA</Hsp_hseq>
+      <Hsp_midline> ++G G+ G+VYK IH+ + ++ A+K +     E+  ++I +EI I++  + P+VVK +  + +N ++ +++E+   GS+            E ++A + +  L GL YLH    +HRDIK  N+L+N+  + K+ADFGV+  L  TM   N+ +GT  +M+PE I          GY    DIWSLG++ +E   G+ P+        A +  M AI M  + PP     P   S  F  F+  CL + P +R +A QLLQHPF+  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>sp|Q9JI11.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase 4; AltName: Full=Mammalian STE20-like protein kinase 1; Short=MST-1; AltName: Full=STE20-like kinase MST1; Contains: RecName: Full=Serine/threonine-protein kinase 4 37kDa subunit; Short=MST1/N; Contains: RecName: Full=Serine/threonine-protein kinase 4 18kDa subunit; Short=MST1/C [Mus musculus]</Hit_def>
+  <Hit_accession>Q9JI11</Hit_accession>
+  <Hit_len>487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>6.75794e-38</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>NRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGA-----HVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGY--AGDIWSLGVSILEFYLGRFPFPVSRQGDWASL--MCAICM--SQPP---EAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRA</Hsp_qseq>
+      <Hsp_hseq>EKLGEGSYGSVYKAIHKETGQIVAIKQV---PVESDLQEIIKEISIMQQCDSPHVVKYYGSYFKNTDLWIVMEYCGAGSVSDIIRLRNKTLTEDEIATILQSTLKGLEYLHFMRKIHRDIKAGNILLNTEGHAKLADFGVAGQLTDTMAKRNTVIGTPFWMAPEVIQE-------IGYNCVADIWSLGITAIEMAEGKPPY--------ADIHPMRAIFMIPTNPPPTFRKPELWSDNFMDFVKQCLVKSPEQRATATQLLQHPFVKSA</Hsp_hseq>
+      <Hsp_midline> ++G G+ G+VYK IH+ + ++ A+K +     E+  ++I +EI I++  + P+VVK +  + +N ++ +++E+   GS+            E ++A + +  L GL YLH    +HRDIK  N+L+N+  + K+ADFGV+  L  TM   N+ +GT  +M+PE I          GY    DIWSLG++ +E   G+ P+        A +  M AI M  + PP     P   S  F  F+  CL + P +R +A QLLQHPF+  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>sp|O61122.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase svkA; AltName: Full=Severin kinase A [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>O61122</Hit_accession>
+  <Hit_len>478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.436</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>8.13697e-38</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>340</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>VRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGS---LEGAHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQ--PPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASPS</Hsp_qseq>
+      <Hsp_hseq>VRQEKIGKGSFGEVFKGINKKTNETIAIKTIDLEDAEDEIEDIQQEINVLSQCESPFVTKYFGSFLKGSKLWIIMEYLAGGSVLDLMKPGPFDEGYIAIILRELLKGLEYLHSEGKIHRDIKAANVLLSASGDVKLADFGVSGQLTDQMTKRNTFVGTPFWMAPEVI----KQTGYDSKA-DIWSMGITALEMAKGEPP-----RADLHPMRALFLIPKDPPPTLEGNFSKGFKEFCALCLNKDPNQRPTAKDLLKHKFIKAAKKT</Hsp_hseq>
+      <Hsp_midline>VR  +IG G+ G V+K I++ ++   A+K I     E     I +EI +L     P V K    F +  ++ +++E++  GS   L     + E  +A + R++L GL YLHS   +HRDIK +N+L++++ +VK+ADFGVS  L   M   N+ VGT  +M+PE I     Q  YD  A DIWS+G++ LE   G  P     + D   +     + +  PP      S  F+ F + CL ++P +R +A  LL+H FI  A  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>sp|G4N6Z6.1|</Hit_id>
+  <Hit_def>RecName: Full=Mitogen-activated protein kinase kinae MKK2; Short=MAPKK MKK2; AltName: Full=MEK MKK2 [Pyricularia oryzae 70-15]</Hit_def>
+  <Hit_accession>G4N6Z6</Hit_accession>
+  <Hit_len>527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>8.36512e-38</Hsp_evalue>
+      <Hsp_query-from>104</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>252</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>LYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQ--NGEIQVLLEFMDKGSLEGAHVWKEQQ----------LADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFP-----VSRQGDWASLMCAIC------MSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFIL</Hsp_qseq>
+      <Hsp_hseq>VFALKVITANPDPDVKKQIMRELDFNIQCASEHICRYYGAFEDPSTATISIAMEFCEGGSLD--SIYKEVKRLGGRTGEKVLGKIAEGVLRGLTYLNSKKIIHRDIKPSNILLCRNGDVKLCDFGVSGDFG-TKGEANTFIGTSYYMAPERIT-----GQSYTITSDVWSTGVTLLEVAQHRFPFPADGTEMAPRAGLIDLLTYIVRQPIPKLKDEPSAQISWSENFKYFIECCLEKDPQRRASPWRMLEHPWMV</Hsp_hseq>
+      <Hsp_midline>++ALKVI  N +  V++QI RE++        ++ + +  F+      I + +EF + GSL+   ++KE +          L  ++  +L GL YL+S+ I+HRDIKPSN+L+    +VK+ DFGVS     T    N+ +GT  YM+PERI      G+      D+WS GV++LE    RFPFP     ++ +     L+  I       +   P A  + S  F++FI CCL+++P +R S  ++L+HP+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>sp|A4K2P5.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase 4; Contains: RecName: Full=Serine/threonine-protein kinase 4 37kDa subunit; Short=MST1/N; Contains: RecName: Full=Serine/threonine-protein kinase 4 18kDa subunit; Short=MST1/C [Colobus guereza]</Hit_def>
+  <Hit_accession>A4K2P5</Hit_accession>
+  <Hit_len>487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>8.44985e-38</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>NRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGA-----HVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGY--AGDIWSLGVSILEFYLGRFPFPVSRQGDWASL--MCAICM--SQPP---EAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRAS</Hsp_qseq>
+      <Hsp_hseq>EKLGEGSYGSVYKAIHKETGQIVAIKQV---PVESDLQEIIKEISIMQQCDSPHVVKYYGSYFKNTDLWIVMEYCGAGSVSDIIRLRNKTLTEDEIATVLQSTLKGLEYLHFMRKIHRDIKAGNILLNTEGHAKLADFGVAGQLTDTMAKRNTVIGTPFWMAPEVIQE-------IGYNCVADIWSLGITAIEMAEGKPPY--------ADIHPMRAIFMIPTNPPPTFRKPELWSDNFTDFVKQCLVKSPEQRATATQLLQHPFVKSAK</Hsp_hseq>
+      <Hsp_midline> ++G G+ G+VYK IH+ + ++ A+K +     E+  ++I +EI I++  + P+VVK +  + +N ++ +++E+   GS+            E ++A + +  L GL YLH    +HRDIK  N+L+N+  + K+ADFGV+  L  TM   N+ +GT  +M+PE I          GY    DIWSLG++ +E   G+ P+        A +  M AI M  + PP     P   S  F  F+  CL + P +R +A QLLQHPF+  A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>sp|A4K2S1.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase 4; Contains: RecName: Full=Serine/threonine-protein kinase 4 37kDa subunit; Short=MST1/N; Contains: RecName: Full=Serine/threonine-protein kinase 4 18kDa subunit; Short=MST1/C [Lemur catta]</Hit_def>
+  <Hit_accession>A4K2S1</Hit_accession>
+  <Hit_len>487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>8.80012e-38</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>NRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGA-----HVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGY--AGDIWSLGVSILEFYLGRFPFPVSRQGDWASL--MCAICM--SQPP---EAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRAS</Hsp_qseq>
+      <Hsp_hseq>EKLGEGSYGSVYKAIHKETGQIVAIKQV---PVESDLQEIIKEISIMQQCDSPHVVKYYGSYFKNTDLWIVMEYCGAGSVSDIIRLRNKTLTEDEIATILQSTLKGLEYLHFMRKIHRDIKAGNILLNTEGHAKLADFGVAGQLTDTMAKRNTVIGTPFWMAPEVIQE-------IGYNCVADIWSLGITAIEMAEGKPPY--------ADIHPMRAIFMIPTNPPPTFRKPELWSDNFMDFVRQCLVKSPDQRATATQLLQHPFVKSAK</Hsp_hseq>
+      <Hsp_midline> ++G G+ G+VYK IH+ + ++ A+K +     E+  ++I +EI I++  + P+VVK +  + +N ++ +++E+   GS+            E ++A + +  L GL YLH    +HRDIK  N+L+N+  + K+ADFGV+  L  TM   N+ +GT  +M+PE I          GY    DIWSLG++ +E   G+ P+        A +  M AI M  + PP     P   S  F  F+  CL + P +R +A QLLQHPF+  A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>sp|O22042.1|</Hit_id>
+  <Hit_def>RecName: Full=Mitogen-activated protein kinase kinase kinase 3; AltName: Full=Arabidopsis NPK1-related protein kinase 3 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>O22042</Hit_accession>
+  <Hit_len>651</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>9.85199e-38</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>RGNRIGSGAGGTVYKVIHRPSSRLYALKVIY-----GNHEETVR--RQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGS----LEGAHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQ--TMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFI</Hsp_qseq>
+      <Hsp_hseq>KGELIGCGAFGRVYMGMNLDSGELLAIKQVLIAPSSASKEKTQGHIRELEEEVQLLKNLSHPNIVRYLGTVRESDSLNILMEFVPGGSISSLLEKFGSFPEPVIIMYTKQLLLGLEYLHNNGIMHRDIKGANILVDNKGCIRLADFGASKKVVELATVNGAKSMKGTPYWMAPEVI---LQTGH--SFSADIWSVGCTVIEMATGKPPWSEQYQQFAAVLHIGRTKAHPP-IPEDLSPEAKDFLMKCLHKEPSLRLSATELLQHPFV</Hsp_hseq>
+      <Hsp_midline>+G  IG GA G VY  ++  S  L A+K +       + E+T    R++  E+++L++++HPN+V+      ++  + +L+EF+  GS    LE    + E  +   ++Q+L GL YLH+  I+HRDIK +N+L+++   +++ADFG S+ + +  T++   S  GT  +M+PE I   L  G    ++ DIWS+G +++E   G+ P+    Q   A L      + PP  P   SPE + F+  CL +EP  R SA +LLQHPF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>sp|E1BK52.3|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase 10 [Bos taurus]</Hit_def>
+  <Hit_accession>E1BK52</Hit_accession>
+  <Hit_len>966</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>1.01526e-37</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>348</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>IGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEF-----MDKGSLEGAHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTD-LNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPE--APATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASPSQNRSPQNL</Hsp_qseq>
+      <Hsp_hseq>LGDGAFGKVYKAKNKETGALAAAKVIETNSEEELEDYIV-EIEILATCDHPYIVKLLGAYYYDGKLWIMIEFCPGGAVDAIMLELDRGLTEPQIQVVCRQMLEALTFLHGKKIIHRDLKAGNVLMTLEGDIRLADFGVSAKNLKTLQKRDSFIGTPYWMAPEVVMCETMKDTPYD-YKADIWSLGITLIEMAQIE---PPHHELNPMRVLLKIAKSDPPTLLSPSKWSAEFRDFLKTALDKNPETRPSAAQLLEHPFV--SSVTSNKALREL</Hsp_hseq>
+      <Hsp_midline>+G GA G VYK  ++ +  L A KVI  N EE +   I  EIEIL   +HP +VK    +  +G++ +++EF     +D   LE      E Q+  + RQ+L  L +LH + I+HRD+K  N+L+    ++++ADFGVS    +T+   +S +GT  +M+PE +  + +    YD Y  DIWSLG++++E        P   + +   ++  I  S PP   +P+  S EFR F+   L + P  R SA QLL+HPF+  +S + N++ + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>sp|O94804.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase 10; AltName: Full=Lymphocyte-oriented kinase [Homo sapiens]</Hit_def>
+  <Hit_accession>O94804</Hit_accession>
+  <Hit_len>968</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>1.05564e-37</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>IGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEF-----MDKGSLEGAHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTD-LNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPE--APATASPEFRHFISCCLQREPGKRRSAMQLLQHPFI</Hsp_qseq>
+      <Hsp_hseq>LGDGAFGKVYKAKNKETGALAAAKVIETKSEEELEDYIV-EIEILATCDHPYIVKLLGAYYHDGKLWIMIEFCPGGAVDAIMLELDRGLTEPQIQVVCRQMLEALNFLHSKRIIHRDLKAGNVLMTLEGDIRLADFGVSAKNLKTLQKRDSFIGTPYWMAPEVVMCETMKDTPYD-YKADIWSLGITLIEMAQIE---PPHHELNPMRVLLKIAKSDPPTLLTPSKWSVEFRDFLKIALDKNPETRPSAAQLLEHPFV</Hsp_hseq>
+      <Hsp_midline>+G GA G VYK  ++ +  L A KVI    EE +   I  EIEIL   +HP +VK    +  +G++ +++EF     +D   LE      E Q+  + RQ+L  L +LHS+ I+HRD+K  N+L+    ++++ADFGVS    +T+   +S +GT  +M+PE +  + +    YD Y  DIWSLG++++E        P   + +   ++  I  S PP    P+  S EFR F+   L + P  R SA QLL+HPF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>sp|O55098.2|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase 10; AltName: Full=Lymphocyte-oriented kinase [Mus musculus]</Hit_def>
+  <Hit_accession>O55098</Hit_accession>
+  <Hit_len>966</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>1.09527e-37</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>IGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEF-----MDKGSLEGAHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTD-LNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPE--APATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASPSQ</Hsp_qseq>
+      <Hsp_hseq>LGDGAFGKVYKAKNKETGALAAAKVIETKSEEELEDYIV-EIEILATCDHPYIVKLLGAYYYDGKLWIMIEFCPGGAVDAIMLELDRGLTEPQIQVVCRQMLEALNFLHGKRIIHRDLKAGNVLMTLEGDIRLADFGVSAKNLKTLQKRDSFIGTPYWMAPEVVLCETMKDAPYD-YKADIWSLGITLIEMAQIE---PPHHELNPMRVLLKIAKSDPPTLLTPSKWSVEFRDFLKIALDKNPETRPSAAQLLQHPFVSRVTSNK</Hsp_hseq>
+      <Hsp_midline>+G GA G VYK  ++ +  L A KVI    EE +   I  EIEIL   +HP +VK    +  +G++ +++EF     +D   LE      E Q+  + RQ+L  L +LH + I+HRD+K  N+L+    ++++ADFGVS    +T+   +S +GT  +M+PE +  + +    YD Y  DIWSLG++++E        P   + +   ++  I  S PP    P+  S EFR F+   L + P  R SA QLLQHPF+ R + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>sp|Q6PA14.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase 4; Contains: RecName: Full=Serine/threonine-protein kinase 4 37kDa subunit; Short=MST1/N; Contains: RecName: Full=Serine/threonine-protein kinase 4 18kDa subunit; Short=MST1/C [Xenopus laevis]</Hit_def>
+  <Hit_accession>Q6PA14</Hit_accession>
+  <Hit_len>485</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>1.51058e-37</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>RIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEG-----AHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGY--AGDIWSLGVSILEFYLGRFPFPVSRQGDWASL--MCAICM--SQPP---EAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRA</Hsp_qseq>
+      <Hsp_hseq>KLGEGSYGSVYKASHKETSQIVAIKQI---PVESDLQEIIKEISIMQQCDSPHVVKYYGSYFKNTDLWIVMEFCGGGSVSDIIRLRKQTLNEDEIATILQSTLKGLEYLHFMRKIHRDIKAGNILLSCEGTAKLADFGVAGQLTDTMAKRNTVIGTPFWMAPEVIQE-------IGYNCVADIWSLGITAIEMAEGKPPY--------AEIHPMRAIFMIPSNPPPTFRKPELWSKDFVDFINLCLVKNPELRSSATELLQHPFIKAA</Hsp_hseq>
+      <Hsp_midline>++G G+ G+VYK  H+ +S++ A+K I     E+  ++I +EI I++  + P+VVK +  + +N ++ +++EF   GS+            E ++A + +  L GL YLH    +HRDIK  N+L++     K+ADFGV+  L  TM   N+ +GT  +M+PE I          GY    DIWSLG++ +E   G+ P+        A +  M AI M  S PP     P   S +F  FI+ CL + P  R SA +LLQHPFI  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>sp|P52564.1|</Hit_id>
+  <Hit_def>RecName: Full=Dual specificity mitogen-activated protein kinase kinase 6; Short=MAP kinase kinase 6; Short=MAPKK 6; AltName: Full=MAPK/ERK kinase 6; Short=MEK 6; AltName: Full=Stress-activated protein kinase kinase 3; Short=SAPK kinase 3; Short=SAPKK-3; Short=SAPKK3 [Homo sapiens]</Hit_def>
+  <Hit_accession>P52564</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.584</Hsp_bit-score>
+      <Hsp_score>353</Hsp_score>
+      <Hsp_evalue>1.8778e-37</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>SSGGSASSTNTNSSIEAKNYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEI-LRDVNHPNVVKCHEMFDQNGEIQVLLEFMD-------KGSLEGAHVWKEQQLADLSRQILSGLAYLHSR-HIVHRDIKPSNLLINSAKNVKIADFGVSRIL----AQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATA-SPEFRHFISCCLQREPGKRRSAMQLLQHPFI</Hsp_qseq>
+      <Hsp_hseq>DSKACISIGNQNFEVKADDLEPIME---LGRGAYGVVEKMRHVPSGQIMAVKRIRATVNSQEQKRLLMDLDISMRTVDCPFTVTFYGALFREGDVWICMELMDTSLDKFYKQVIDKGQTIPEDILGKIAVSIVKALEHLHSKLSVIHRDVKPSNVLINALGQVKMCDFGISGYLVDSVAKTID-----AGCKPYMAPERINPELNQKGY-SVKSDIWSLGITMIELAILRFPY--DSWGTPFQQLKQVVEEPSPQLPADKFSAEFVDFTSQCLKKNSKERPTYPELMQHPFF</Hsp_hseq>
+      <Hsp_midline> S    S  N N  ++A +   ++    +G GA G V K+ H PS ++ A+K I        ++++  +++I +R V+ P  V  +    + G++ + +E MD       K  ++      E  L  ++  I+  L +LHS+  ++HRD+KPSN+LIN+   VK+ DFG+S  L    A+T+D      G   YM+PERIN +LNQ  Y     DIWSLG++++E  + RFP+     G     +  +     P+ PA   S EF  F S CL++   +R +  +L+QHPF </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>sp|Q8T0S6.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase hippo; AltName: Full=Drosophila homolog of MST1 and MST2; AltName: Full=STE20-like kinase MST; AltName: Full=dMST [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>Q8T0S6</Hit_accession>
+  <Hit_len>669</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.98589e-37</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>RIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEG-----AHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPP----EAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRA</Hsp_qseq>
+      <Hsp_hseq>KLGEGSYGSVYKAVHKESSSIVAIKLV---PVESDLHEIIKEISIMQQCDSPYVVRYYGSYFKQYDLWICMEYCGAGSVSDIMRLRKKTLTEDEIATILSDTLQGLVYLHLRRKIHRDIKAANILLNTEGYAKLADFGVAGQLTDTMAKRNTVIGTPFWMAPEVI----EEIGYDCVA-DIWSLGITALEMAEGKPPY-----GEIHPMRAIFMIPQKPPPSFREPDRWSTEFIDFVSKCLVKEPDDRATATELLEHEFIRNA</Hsp_hseq>
+      <Hsp_midline>++G G+ G+VYK +H+ SS + A+K++     E+   +I +EI I++  + P VV+ +  + +  ++ + +E+   GS+            E ++A +    L GL YLH R  +HRDIK +N+L+N+    K+ADFGV+  L  TM   N+ +GT  +M+PE I     +  YD  A DIWSLG++ LE   G+ P+     G+   +     + Q P      P   S EF  F+S CL +EP  R +A +LL+H FI  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>sp|Q54WX4.1|</Hit_id>
+  <Hit_def>RecName: Full=Aurora kinase [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54WX4</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.739</Hsp_bit-score>
+      <Hsp_score>356</Hsp_score>
+      <Hsp_evalue>2.16557e-37</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>SDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEET--VRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGS----LEGAHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFILRASPSQNRSPQNLHQLLP</Hsp_qseq>
+      <Hsp_hseq>DDFDIGKLLGMGRFGHVYLAREKKSQFIVALKVLFKNQLQTHNIEHQLRREIEIQSHLRHPNILRLFGYFYDDKRVFLIIEFAKGGECFKELQKVGSFNEQTAATYTLQIADALRYCHSKHVIHRDIKPENLLIGVGGEIKIADFGWSVHAPNTKR--STFCGTLEYLPPEVI----EKKGYDQTA-DVWSLGILIFEFLVGRSPFTSDEEKN----IFHNIQENDVYYPSSISPEAKDLISRLLVSDPHQRITLKDVINHPWIKKHAHPKSLEPTKLGLPLP</Hsp_hseq>
+      <Hsp_midline> D   G  +G G  G VY    + S  + ALKV++ N  +T  +  Q+ REIEI   + HPN+++    F  +  + +++EF   G     L+    + EQ  A  + QI   L Y HS+H++HRDIKP NLLI     +KIADFG S     T    ++  GT+ Y+ PE I     +  YD  A D+WSLG+ I EF +GR PF    + +    +           P++ SPE +  IS  L  +P +R +   ++ HP+I + +  ++  P  L   LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>sp|E9PTG8.1|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase 10 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>E9PTG8</Hit_accession>
+  <Hit_len>967</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>2.18923e-37</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>IGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEF-----MDKGSLEGAHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTD-LNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPE--APATASPEFRHFISCCLQREPGKRRSAMQLLQHPFI</Hsp_qseq>
+      <Hsp_hseq>LGDGAFGKVYKAKNKETGALAAAKVIETKSEEELEDYIV-EIEILATCDHPYIVKLLGAYYYDGKLWIMIEFCPGGAVDAIMLELDRGLTEPQIQVVCRQMLEALNFLHGKRIIHRDLKAGNVLMTLEGDIRLADFGVSAKNLKTLQKRDSFIGTPYWMAPEVVLCETMKDAPYD-YKADIWSLGITLIEMAQIE---PPHHELNPMRVLLKIAKSDPPTLLTPSKWSTEFRDFLKIALDKNPETRPSAAQLLQHPFV</Hsp_hseq>
+      <Hsp_midline>+G GA G VYK  ++ +  L A KVI    EE +   I  EIEIL   +HP +VK    +  +G++ +++EF     +D   LE      E Q+  + RQ+L  L +LH + I+HRD+K  N+L+    ++++ADFGVS    +T+   +S +GT  +M+PE +  + +    YD Y  DIWSLG++++E        P   + +   ++  I  S PP    P+  S EFR F+   L + P  R SA QLLQHPF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>sp|Q7Z8E9.3|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase MST20 [Pyricularia oryzae 70-15]</Hit_def>
+  <Hit_accession>Q7Z8E9</Hit_accession>
+  <Hit_len>914</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.362</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>2.51117e-37</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>639</Hsp_hit-from>
+      <Hsp_hit-to>885</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>RIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQ-ICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGA---HVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFI</Hsp_qseq>
+      <Hsp_hseq>KIGQGASGGVYTGHERGSNRLVAIKQM--NLEQQPKKDLIINEILVMKDSSHPNIVNFIDSYLCGGELWVVMEFMEGGSLTDVVTFNIMTEGQIASVCRETLLGLQHLHSKGVIHRDIKSDNILLSMEGNIKLTDFGFCATINEAQNKRTTMVGTPYWMAPEVVTR-----KEYGRKVDIWSLGIMAIEMIEGEPPY-LTESPLRALWLIATNGTPQIKDEGNMSPVFRDFLYFALKVDPDKRASAHDLLRHEFM</Hsp_hseq>
+      <Hsp_midline>+IG GA G VY    R S+RL A+K +  N E+  ++  I  EI +++D +HPN+V   + +   GE+ V++EFM+ GSL      ++  E Q+A + R+ L GL +LHS+ ++HRDIK  N+L++   N+K+ DFG    + +  +   + VGT  +M+PE +       K  G   DIWSLG+  +E   G  P+ ++     A  + A   +   +     SP FR F+   L+ +P KR SA  LL+H F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>sp|P70236.1|</Hit_id>
+  <Hit_def>RecName: Full=Dual specificity mitogen-activated protein kinase kinase 6; Short=MAP kinase kinase 6; Short=MAPKK 6; AltName: Full=MAPK/ERK kinase 6; Short=MEK 6; AltName: Full=SAPKK3 [Mus musculus]</Hit_def>
+  <Hit_accession>P70236</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.198</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>2.59298e-37</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>SSGGSASSTNTNSSIEAKNYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEI-LRDVNHPNVVKCHEMFDQNGEIQVLLEFMD-------KGSLEGAHVWKEQQLADLSRQILSGLAYLHSR-HIVHRDIKPSNLLINSAKNVKIADFGVSRIL----AQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATA-SPEFRHFISCCLQREPGKRRSAMQLLQHPFI</Hsp_qseq>
+      <Hsp_hseq>DSKACISIGNQNFEVKADDLEPIVE---LGRGAYGVVEKMRHVPSGQIMAVKRIRATVNSQEQKRLLMDLDVSMRTVDCPFTVTFYGALFREGDVWICMELMDTSLDKFYKQVIDKGQTIPEDILGKIAVSIVKALEHLHSKLSVIHRDVKPSNVLINTLGQVKMCDFGISGYLVDSVAKTID-----AGCKPYMAPERINPELNQKGY-SVKSDIWSLGITMIELAILRFPY--DSWGTPFQQLKQVVEEPSPQLPADKFSADFVDFTSQCLKKNSKERPTYPELMQHPFF</Hsp_hseq>
+      <Hsp_midline> S    S  N N  ++A +   +V    +G GA G V K+ H PS ++ A+K I        ++++  ++++ +R V+ P  V  +    + G++ + +E MD       K  ++      E  L  ++  I+  L +LHS+  ++HRD+KPSN+LIN+   VK+ DFG+S  L    A+T+D      G   YM+PERIN +LNQ  Y     DIWSLG++++E  + RFP+     G     +  +     P+ PA   S +F  F S CL++   +R +  +L+QHPF </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>sp|Q40541.1|</Hit_id>
+  <Hit_def>RecName: Full=Mitogen-activated protein kinase kinase kinase NPK1; AltName: Full=Nicotiana protein kinase 1 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>Q40541</Hit_accession>
+  <Hit_len>690</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>4.40311e-37</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>RGNRIGSGAGGTVYKVIHRPSSRLYALK----VIYGNHEETVR---RQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGA----HVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQ--TMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFI</Hsp_qseq>
+      <Hsp_hseq>KGEMIGCGAFGRVYMGMNVDSGELLAIKEVSIAMNGASRERAQAHVRELEEEVNLLKNLSHPNIVRYLGTAREAGSLNILLEFVPGGSISSLLGKFGSFPESVIRMYTKQLLLGLEYLHKNGIMHRDIKGANILVDNKGCIKLADFGASKKVVELATMTGAKSMKGTPYWMAPEVI---LQTGH--SFSADIWSVGCTIIEMATGKPPWSQQYQEVAALFHIGTTKSHPP-IPEHLSAESKDFLLKCLQKEPHLRHSASNLLQHPFV</Hsp_hseq>
+      <Hsp_midline>+G  IG GA G VY  ++  S  L A+K     + G   E  +   R++  E+ +L++++HPN+V+      + G + +LLEF+  GS+         + E  +   ++Q+L GL YLH   I+HRDIK +N+L+++   +K+ADFG S+ + +  TM    S  GT  +M+PE I   L  G    ++ DIWS+G +I+E   G+ P+    Q   A        S PP  P   S E + F+  CLQ+EP  R SA  LLQHPF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>sp|A9RVK2.2|</Hit_id>
+  <Hit_def>RecName: Full=Mitogen-activated protein kinase kinase kinase 1b; Short=PpMEKK1b; AltName: Full=MAP kinase kinase kinase 1b [Physcomitrium patens]</Hit_def>
+  <Hit_accession>A9RVK2</Hit_accession>
+  <Hit_len>764</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>5.30353e-37</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>684</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>YSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVI----YGNHEETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAHVWKE-----QQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKRRSAMQLLQHPFI</Hsp_qseq>
+      <Hsp_hseq>WDTWFKGDFIGSGTFGSVYEGIDN-NGMFFAVKEVSLKDQGKVGQEAIKQLEHEIALLSDIQHPNIVQYLGTERDDEKLYIFLELVSKGSL--ASLYKKYYFVYDQVRAYTKQILSGLKYLHDRKIIHRDIKCANILVDTNGVVKLADFGMAKQVDK-LGLLKSFMGSAHWMAPEVVNP---KRQYN-FLADIWSLGCTVLEMATGDAPF---GELECHSVLWKVGNGEGPLIPDDLEDEMKDFISKCLEVTVGNRPTCDMLLTHPFI</Hsp_hseq>
+      <Hsp_midline>+    +G+ IGSG  G+VY+ I   +   +A+K +     G   +   +Q+  EI +L D+ HPN+V+       + ++ + LE + KGSL  A ++K+      Q+   ++QILSGL YLH R I+HRDIK +N+L+++   VK+ADFG+++ + + +    S +G+  +M+PE +N    + +Y+ +  DIWSLG ++LE   G  PF    + +  S++  +   + P  P     E + FIS CL+   G R +   LL HPFI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>sp|P45985.1|</Hit_id>
+  <Hit_def>RecName: Full=Dual specificity mitogen-activated protein kinase kinase 4; Short=MAP kinase kinase 4; Short=MAPKK 4; AltName: Full=JNK-activating kinase 1; AltName: Full=MAPK/ERK kinase 4; Short=MEK 4; AltName: Full=SAPK/ERK kinase 1; Short=SEK1; AltName: Full=Stress-activated protein kinase kinase 1; Short=SAPK kinase 1; Short=SAPKK-1; Short=SAPKK1; AltName: Full=c-Jun N-terminal kinase kinase 1; Short=JNKK [Homo sapiens]</Hit_def>
+  <Hit_accession>P45985</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.584</Hsp_bit-score>
+      <Hsp_score>353</Hsp_score>
+      <Hsp_evalue>5.84032e-37</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>300</Hsp_align-len>
+      <Hsp_qseq>SAPSSGGSASSTNTNSSIEAKNYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNHEETVRRQICREIEI-LRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSLEGAH---------VWKEQQLADLSRQILSGLAYLHSR-HIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASL---MCAICMSQPPEAPATA----SPEFRHFISCCLQREPGKRRSAMQLLQHPFIL</Hsp_qseq>
+      <Hsp_hseq>SIESSGKLKISPEQHWDFTAEDLKDL---GEIGRGAYGSVNKMVHKPSGQIMAVKRIRSTVDEKEQKQLLMDLDVVMRSSDCPYIVQFYGALFREGDCWICMELMST-SFDKFYKYVYSVLDDVIPEEILGKITLATVKALNHLKENLKIIHRDIKPSNILLDRSGNIKLCDFGISGQLVDSIAKTRDA-GCRPYMAPERIDPSASRQGYD-VRSDVWSLGITLYELATGRFPYP-----KWNSVFDQLTQVVKGDPPQLSNSEEREFSPSFINFVNLCLTKDESKRPKYKELLKHPFIL</Hsp_hseq>
+      <Hsp_midline>S  SSG    S   +    A++  DL     IG GA G+V K++H+PS ++ A+K I    +E  ++Q+  ++++ +R  + P +V+ +    + G+  + +E M   S +  +         V  E+ L  ++   +  L +L     I+HRDIKPSN+L++ + N+K+ DFG+S  L  ++     + G   YM+PERI+   ++  YD    D+WSLG+++ E   GRFP+P      W S+   +  +    PP+   +     SP F +F++ CL ++  KR    +LL+HPFIL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>sp|Q8MYF1.1|</Hit_id>
+  <Hit_def>RecName: Full=Probable serine/threonine-protein kinase DDB_G0277449 [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q8MYF1</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.739</Hsp_bit-score>
+      <Hsp_score>356</Hsp_score>
+      <Hsp_evalue>6.81556e-37</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>357</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>NYSDLVRGNRIGSGAGGTVYKVIHRPSSRLYALKVIYGNH---EETVRRQICREIEILRDVNHPNVVKCHEMFDQNGEIQVLLEFMDKGSL----EGAHVWKEQQLADLSRQILSGLAYLHSRHIVHRDIKPSNLLINSAKNVKIADFGVSRILAQTMDPCNSSVGTIAYMSPERINTDLNQGKYDGYAGDIWSLGVSILEFYLGRFPFPVSRQGDWASLMCAICMSQPPEAPATASPEFRHFISCCLQREPGKR---RSAMQLLQHPFILRASPSQNRSPQNLHQLLPPPRP</Hsp_qseq>
+      <Hsp_hseq>NLSNFIIKHLVGKGGFGKVFQVVHVDTQKVYALKVIKKNHIIAKKSVVNTLA-EKDILKKISHPFIVNLHYAFQNEKKLYLVMDFVNGGQLFYHLQKEAIFSEDQVRFYMAELILALEHLHDSNIVHRDLKPENILLDSQGHCILTDFGLAKLEVKTNNETFSFAGTLEYMAPEMI-----QHATCGKAVDWWSIGILMYDMMIGKPPFEHKNR----ALMQEKIISEKAKFPKFVSSSARSLINGLLTKDPTKRLGANGAIEIKRHPFF---KSIQWRKIEN-KEITPPFVP</Hsp_hseq>
+      <Hsp_midline>N S+ +  + +G G  G V++V+H  + ++YALKVI  NH   +++V   +  E +IL+ ++HP +V  H  F    ++ ++++F++ G L    +   ++ E Q+     +++  L +LH  +IVHRD+KP N+L++S  +  + DFG++++  +T +   S  GT+ YM+PE I     Q    G A D WS+G+ + +  +G+ PF    +    +LM    +S+  + P   S   R  I+  L ++P KR     A+++ +HPF       Q R  +N  ++ PP  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>484740</Statistics_db-num>
+      <Statistics_db-len>184554678</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
