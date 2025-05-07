@@ -1,17 +1,17 @@
 name: bioenv_x86
 channels:
-  - defaults
   - bioconda
   - conda-forge
+  - defaults
 dependencies:
   - python=3.10
   - seaborn
   - matplotlib
   - numpy
   - biopython
-  - pip
-  - hmmer
-  - clustalo
   - pandas
   - flask
   - requests
+  - pip
+  - clustalo
+  - hmmer
